@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto · ICAOP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Contacto</div>
+      <h1>Contacto</h1>
+      <p>Escríbenos o visítanos — estaremos felices de atenderte.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+
+        <div class="card" id="datos-institucionales">
+          <h3>Datos institucionales</h3>
+
+          <p><i class="fa-solid fa-location-dot" style="color:var(--color-vino);"></i> <strong>Sede principal</strong><br>
+             A.H. M. Grau, Mz. B, Lote 26 — San Juan de Lurigancho, Lima<br>
+             <span style="color:var(--color-gris);font-size:var(--texto-sm);">Entre Av. San Martín con Sta. Rosa, a 1 cuadra</span></p>
+
+          <p><i class="fa-solid fa-location-dot" style="color:var(--color-vino);"></i> <strong>Oficina administrativa</strong><br>
+             Calle Los Topacios 390, Of. 101, Cerros de Camacho — Santiago de Surco, Lima</p>
+
+          <p><i class="fa-solid fa-phone" style="color:var(--color-vino);"></i> <a href="tel:+51994738400">+51 994 738 400</a></p>
+          <p><i class="fa-solid fa-phone" style="color:var(--color-vino);"></i> <a href="tel:+51955375303">+51 955 375 303</a></p>
+
+          <p><i class="fa-solid fa-envelope" style="color:var(--color-vino);"></i> <a href="mailto:icaop.peru@gmail.com" data-dato="contacto.correo" data-href-dato="contacto.correo">icaop.peru@gmail.com</a>
+            <span class="editable-note">editable en datos-contacto.js</span></p>
+        </div>
+
+        <div class="card">
+          <h3>Formulario general</h3>
+          <form data-form novalidate>
+            <div class="form-field">
+              <label for="ct-nombre">Nombre</label>
+              <input type="text" id="ct-nombre" name="nombre" required>
+            </div>
+            <div class="form-field">
+              <label for="ct-correo">Correo electrónico</label>
+              <input type="email" id="ct-correo" name="correo" required>
+            </div>
+            <div class="form-field">
+              <label for="ct-mensaje">Mensaje</label>
+              <textarea id="ct-mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+            <p class="form-msg" role="status"></p>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="callout-redes">
+        <div>
+          <h3><i class="fa-solid fa-heart"></i> Síguenos en nuestras redes</h3>
+          <p>Fotos de celebraciones, anuncios al momento y la vida diaria de nuestra comunidad — todo primero en nuestras redes sociales. ¡Únete!</p>
+        </div>
+        <div class="callout-redes-iconos">
+          <div>
+            <a href="#" aria-label="Facebook" data-href-dato="contacto.redesSociales.facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+            <span class="etiqueta">Facebook</span>
+          </div>
+          <div>
+            <a href="#" aria-label="Instagram" data-href-dato="contacto.redesSociales.instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <span class="etiqueta">Instagram</span>
+          </div>
+          <div>
+            <a href="#" aria-label="TikTok" data-href-dato="contacto.redesSociales.tiktok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+            <span class="etiqueta">TikTok</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-foto" style="aspect-ratio:16/6;margin-top:32px;">
+        <span class="placeholder-txt"><i class="fa-solid fa-map-location-dot"></i><br>Mapa de ubicación (insertar Google Maps embed aquí)</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script>montarComponentes("contacto");</script>
+</body>
+</html>

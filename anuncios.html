@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuncios · ICAOP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Anuncios</div>
+      <h1>Anuncios</h1>
+      <p>Novedades, celebraciones y comunicados de la Iglesia.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:820px;">
+      <p style="color:var(--color-gris);"><span class="editable-note">Contenido de ejemplo — se reemplaza solo, en cuanto conectes tu Google Sheet</span></p>
+      <ul class="lista-anuncios" data-anuncios>
+        <li>
+          <span class="punto"><i class="fa-solid fa-circle" style="font-size:8px;"></i></span>
+          <span style="flex:1;">Título del anuncio — breve descripción de la novedad.</span>
+          <span class="fecha">00/00/2026</span>
+        </li>
+        <li>
+          <span class="punto"><i class="fa-solid fa-circle" style="font-size:8px;"></i></span>
+          <span style="flex:1;">Título del anuncio — breve descripción de la novedad.</span>
+          <span class="fecha">00/00/2026</span>
+        </li>
+        <li>
+          <span class="punto"><i class="fa-solid fa-circle" style="font-size:8px;"></i></span>
+          <span style="flex:1;">Título del anuncio — breve descripción de la novedad.</span>
+          <span class="fecha">00/00/2026</span>
+        </li>
+        <li>
+          <span class="punto"><i class="fa-solid fa-circle" style="font-size:8px;"></i></span>
+          <span style="flex:1;">Título del anuncio — breve descripción de la novedad.</span>
+          <span class="fecha">00/00/2026</span>
+        </li>
+        <li>
+          <span class="punto"><i class="fa-solid fa-circle" style="font-size:8px;"></i></span>
+          <span style="flex:1;">Título del anuncio — breve descripción de la novedad.</span>
+          <span class="fecha">00/00/2026</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/anuncios-config.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/anuncios.js"></script>
+<script>montarComponentes("anuncios");</script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donaciones · ICAOP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Donaciones</div>
+      <h1>Donaciones</h1>
+      <p>Tu aporte sostiene las obras, misiones y proyectos de la Iglesia en el Perú.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div data-tabs class="tabs" role="tablist" aria-label="Secciones de Donaciones">
+        <button class="tab-btn" data-tab="como-donar" aria-selected="true" role="tab">Cómo donar</button>
+        <button class="tab-btn" data-tab="transparencia" aria-selected="false" role="tab">Transparencia</button>
+        <button class="tab-btn" data-tab="legalidad" aria-selected="false" role="tab">Legalidad SUNAT</button>
+        <button class="tab-btn" data-tab="contacto-donantes" aria-selected="false" role="tab">Contacto para donantes</button>
+      </div>
+
+      <!-- CÓMO DONAR -->
+      <div class="tab-panel is-active" data-tab-panel="como-donar">
+        <div class="grid grid-2">
+          <div>
+            <h2>Cómo donar</h2>
+            <p>Puedes hacer tu donación por transferencia o depósito bancario, en soles o en dólares, a nombre de <strong data-dato="institucion.nombre">Iglesia Católica Apostólica Ortodoxa del Perú - ICAOP</strong> (RUC <span data-dato="institucion.ruc">20600700929</span>).</p>
+
+            <h3 style="margin-top:24px;">Cuenta en soles — <span data-dato="donaciones.banco">BBVA Continental</span></h3>
+            <div class="cuenta-bancaria">
+              <span class="num" data-dato="donaciones.cuentaSoles.numero">0011-0832-0100024970-34</span>
+              <button class="copy-btn" data-copy-dato="donaciones.cuentaSoles.numero">Copiar cuenta</button>
+            </div>
+            <div class="cuenta-bancaria">
+              <span class="num" data-dato="donaciones.cuentaSoles.cci">011-832-000100024970-34</span>
+              <button class="copy-btn" data-copy-dato="donaciones.cuentaSoles.cci">Copiar CCI</button>
+            </div>
+
+            <h3 style="margin-top:24px;">Cuenta en dólares — <span data-dato="donaciones.banco">BBVA Continental</span></h3>
+            <div class="cuenta-bancaria">
+              <span class="num" data-dato="donaciones.cuentaDolares.numero">0011-0832-0100024989-34</span>
+              <button class="copy-btn" data-copy-dato="donaciones.cuentaDolares.numero">Copiar cuenta</button>
+            </div>
+            <div class="cuenta-bancaria">
+              <span class="num" data-dato="donaciones.cuentaDolares.cci">011-832-000100024989-34</span>
+              <button class="copy-btn" data-copy-dato="donaciones.cuentaDolares.cci">Copiar CCI</button>
+            </div>
+
+            <p style="margin-top:24px;color:var(--color-gris);font-size:var(--texto-sm);">
+              Después de donar, puedes enviarnos tu comprobante por correo o WhatsApp para emitir la constancia correspondiente — ver pestaña "Contacto para donantes".
+            </p>
+          </div>
+
+          <div class="legal-box" style="align-self:start;">
+            <h3><i class="fa-solid fa-shield-halved"></i> Respaldo legal SUNAT</h3>
+            <p class="dato">ICAOP es <strong>Entidad Perceptora de Donaciones</strong> calificada por SUNAT.</p>
+            <p class="dato">Resolución <strong data-dato="sunat.resolucion">N° 0490050041814</strong></p>
+            <p class="dato">Vigente hasta <strong data-dato="sunat.vigenciaHasta">14 de noviembre de 2027</strong></p>
+            <button class="btn btn-contorno btn-sm" style="border-color:var(--color-crema-suave);color:var(--color-crema-suave);margin-top:12px;" data-modal-open>
+              <i class="fa-solid fa-file-lines"></i> Ver Resolución SUNAT
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRANSPARENCIA -->
+      <div class="tab-panel" data-tab-panel="transparencia">
+        <h2>Transparencia</h2>
+        <div class="card" style="max-width:760px;">
+          <p style="margin:0;">Como Entidad Perceptora de Donaciones calificada por SUNAT, ICAOP se compromete a destinar íntegramente las donaciones recibidas al sostenimiento de sus obras, misiones y proyectos en el Perú. No se comparten montos ni datos de donantes individuales, en línea con la normativa que protege esta información. Para consultas específicas sobre el uso de una donación, puedes escribirnos a través del formulario de la pestaña "Contacto para donantes".</p>
+        </div>
+      </div>
+
+      <!-- LEGALIDAD SUNAT -->
+      <div class="tab-panel" data-tab-panel="legalidad">
+        <h2>Legalidad y respaldo SUNAT</h2>
+        <p>ICAOP cuenta con la calificación de SUNAT como <strong>Entidad Perceptora de Donaciones</strong>, lo que garantiza transparencia y permite a los donantes acceder al beneficio tributario correspondiente (deducción del Impuesto a la Renta por el monto donado).</p>
+
+        <div class="grid grid-2" style="margin-top:24px;">
+          <div class="card">
+            <h3>Datos de la calificación</h3>
+            <p class="dato" style="color:var(--color-gris);">RUC: <strong style="color:var(--color-grafito);" data-dato="institucion.ruc">20600700929</strong></p>
+            <p class="dato" style="color:var(--color-gris);">Resolución de Intendencia: <strong style="color:var(--color-grafito);" data-dato="sunat.resolucion">N° 0490050041814</strong></p>
+            <p class="dato" style="color:var(--color-gris);">Fecha: <strong style="color:var(--color-grafito);" data-dato="sunat.fecha">14 de noviembre de 2024</strong></p>
+            <p class="dato" style="color:var(--color-gris);">Vigente hasta: <strong style="color:var(--color-grafito);" data-dato="sunat.vigenciaHasta">14 de noviembre de 2027</strong></p>
+            <button class="btn btn-primario btn-sm" style="margin-top:12px;" data-modal-open>
+              <i class="fa-solid fa-file-lines"></i> Ver Resolución SUNAT
+            </button>
+          </div>
+          <div class="card">
+            <h3>¿Qué significa para ti?</h3>
+            <p style="margin:0;">Al ser ICAOP una entidad calificada, tu donación puede ser deducida de tu Impuesto a la Renta conforme a la normativa vigente. Esta calificación se renueva cada 3 años ante SUNAT.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACTO PARA DONANTES -->
+      <div class="tab-panel" data-tab-panel="contacto-donantes">
+        <h2>Contacto para donantes</h2>
+        <p>¿Eres una persona o entidad interesada en coordinar una donación? Escríbenos y te responderemos a la brevedad.</p>
+
+        <div class="grid grid-2">
+          <form data-form novalidate>
+            <div class="form-field">
+              <label for="don-nombre">Nombre o institución</label>
+              <input type="text" id="don-nombre" name="nombre" required>
+            </div>
+            <div class="form-field">
+              <label for="don-correo">Correo electrónico</label>
+              <input type="email" id="don-correo" name="correo" required>
+            </div>
+            <div class="form-field">
+              <label for="don-tipo">Tipo de aporte</label>
+              <input type="text" id="don-tipo" name="tipo" placeholder="Ej. donación institucional, en especie, recurrente...">
+            </div>
+            <div class="form-field">
+              <label for="don-mensaje">Mensaje</label>
+              <textarea id="don-mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-dorado">Enviar</button>
+            <p class="form-msg" role="status"></p>
+          </form>
+
+          <div class="card">
+            <h3>También puedes escribirnos directo</h3>
+            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:icaop.peru@gmail.com" data-dato="donaciones.correo" data-href-dato="donaciones.correo">icaop.peru@gmail.com</a></p>
+            <p><i class="fa-brands fa-whatsapp"></i> <span data-dato="donaciones.celular">+51 994 738 400</span></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<!-- MODAL: Resolución SUNAT -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+    <div class="modal-head">
+      <h3 id="modal-titulo">Resolución de Intendencia SUNAT N° 0490050041814</h3>
+      <button class="modal-close" data-modal-close aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body">
+      <iframe src="assets/docs/resolucion-sunat-icaop.pdf" title="Resolución SUNAT ICAOP"></iframe>
+    </div>
+    <div class="modal-foot">
+      <a href="assets/docs/resolucion-sunat-icaop.pdf" target="_blank" rel="noopener" class="btn btn-contorno btn-sm">Abrir en pestaña nueva</a>
+      <a href="assets/docs/resolucion-sunat-icaop.pdf" download class="btn btn-primario btn-sm">Descargar PDF</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script>montarComponentes("donaciones");</script>
+</body>
+</html>

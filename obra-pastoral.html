@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obra Pastoral · ICAOP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Obra Pastoral</div>
+      <h1>Obra Pastoral</h1>
+      <p>Misiones, obras e instituciones, y proyectos de la Iglesia — con foco en el Perú.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div data-tabs class="tabs" role="tablist" aria-label="Secciones de Obra Pastoral">
+        <button class="tab-btn" data-tab="misiones" aria-selected="true" role="tab">Misiones</button>
+        <button class="tab-btn" data-tab="obras" aria-selected="false" role="tab">Obras e instituciones</button>
+        <button class="tab-btn" data-tab="proyectos" aria-selected="false" role="tab">Proyectos</button>
+      </div>
+
+      <!-- MISIONES -->
+      <div class="tab-panel is-active" data-tab-panel="misiones">
+        <h2>Misiones en el Perú</h2>
+        <p>El Perú es la sede principal y cuna de nuestra misión: aquí se encuentra la Arquidiócesis Metropolitana Primada San Ignacio de Antioquía, sede del Santo Sínodo Mundial. Nuestras misiones incluyen parroquias, comedores, albergues, oratorios, capillas, escuelas, colegios parroquiales, centros de salud y demás instituciones afines.</p>
+
+        <div class="card-foto" style="aspect-ratio:16/8;margin:24px 0;">
+          <img src="assets/img/misiones/mapa-misiones-peru.jpg" alt="Mapa de misiones en Perú" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+          <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-map"></i><br>Imagen: misiones/mapa-misiones-peru.jpg</span>
+        </div>
+
+        <h3>Regiones con presencia misionera</h3>
+        <div class="grid grid-4">
+          <div class="card text-center">Lima</div>
+          <div class="card text-center">Piura</div>
+          <div class="card text-center">Áncash · Huaraz</div>
+          <div class="card text-center">Pasco · Oxapampa</div>
+          <div class="card text-center">Satipo · Huancayo · Junín</div>
+          <div class="card text-center">Pucallpa</div>
+          <div class="card text-center">Ayacucho</div>
+          <div class="card text-center">Arequipa</div>
+          <div class="card text-center">Juliaca · Puno</div>
+        </div>
+        <p style="margin-top:24px;color:var(--color-gris);font-size:var(--texto-sm);"><i class="fa-solid fa-circle-info"></i> Esta sección se presenta con alcance a Perú por el momento.</p>
+      </div>
+
+      <!-- OBRAS E INSTITUCIONES -->
+      <div class="tab-panel" data-tab-panel="obras">
+        <h2>Obras e instituciones</h2>
+        <p>«Por sus frutos los conoceréis» (Mateo 7,20). Estas son las instituciones que trabajan como brazos extendidos de nuestra Iglesia, bajo la guía del Santo Sínodo Mundial.</p>
+
+        <div class="grid grid-3" style="margin-top:24px;">
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/casa-de-paz.jpg" alt="Casa de Paz Perú" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-house"></i><br>obras/casa-de-paz.jpg</span>
+            </div>
+            <h3>Casa de Paz Perú</h3>
+            <p>Obra comunitaria, educativa y pastoral: atención integral a familias vulnerables, adultos mayores y niñez en riesgo, a través de albergues y comedores.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/colegios-parroquiales.jpg" alt="Colegios Parroquiales" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-school"></i><br>obras/colegios-parroquiales.jpg</span>
+            </div>
+            <h3>Colegios Parroquiales</h3>
+            <p>Educación en valores y formación integral desde la infancia, sembrando futuro niño por niño.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/corporacion-educativa.jpg" alt="Corporación Educativa Sagrado Corazón de Jesús y María" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-graduation-cap"></i><br>obras/corporacion-educativa.jpg</span>
+            </div>
+            <h3>Corporación Educativa Sagrado Corazón de Jesús y María</h3>
+            <p>Capacitación técnica y formación profesional: educación para el trabajo y la dignidad.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/federacion-abogados.jpg" alt="Federación Internacional de Abogados Ortodoxos" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-scale-balanced"></i><br>obras/federacion-abogados.jpg</span>
+            </div>
+            <h3>Federación Internacional de Abogados Ortodoxos</h3>
+            <p>Con base de abogados en Lima e integrantes de otros países, brinda asesoría legal gratuita y defensa de los derechos humanos.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/asociacion-mujeres.jpg" alt="Asociación Internacional de Mujeres Católicas Ortodoxas" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-hands-holding-circle"></i><br>obras/asociacion-mujeres.jpg</span>
+            </div>
+            <h3>Asociación Internacional de Mujeres Católicas Ortodoxas</h3>
+            <p>Liderazgo femenino, educación teológica, empoderamiento y servicio a la comunidad.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/heraldos-paz.jpg" alt="Asociación Internacional Heraldos por la Paz" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-dove"></i><br>obras/heraldos-paz.jpg</span>
+            </div>
+            <h3>Asociación Internacional Heraldos por la Paz</h3>
+            <p>Promoción de valores éticos, cultura de paz y diálogo interreligioso; distinciones de honor por la paz en el Perú.</p>
+          </div>
+          <div class="card">
+            <div class="card-foto" style="margin-bottom:12px;">
+              <img src="assets/img/obras/prodinju.jpg" alt="ONG PRODINJU" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+              <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-people-group"></i><br>obras/prodinju.jpg</span>
+            </div>
+            <h3>ONG PRODINJU</h3>
+            <p>Promoción y desarrollo integral de la juventud: formación, prevención y oportunidades.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTOS -->
+      <div class="tab-panel" data-tab-panel="proyectos">
+        <h2>Proyectos en Perú</h2>
+        <p>Proyectos ejecutados y por ejecutar por la Iglesia en el Perú. Haz clic en "Ver más información" para conocer el detalle y las imágenes de cada uno.</p>
+        <div class="grid grid-3" data-proyectos-grid style="margin-top:24px;">
+          <!-- Las tarjetas se generan automáticamente desde assets/js/proyectos-datos.js -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<!-- MODAL: Detalle de proyecto -->
+<div class="modal-overlay" id="modal-proyecto-overlay">
+  <div class="modal-box modal-proyecto" role="dialog" aria-modal="true" aria-labelledby="modal-proyecto-titulo">
+    <div class="modal-head">
+      <h3 id="modal-proyecto-titulo" data-proyecto-titulo>Nombre del proyecto</h3>
+      <button class="modal-close" data-modal-close aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body" style="overflow-y:auto;">
+      <div class="detalle-proyecto-galeria" data-proyecto-galeria></div>
+      <div class="detalle-proyecto-body">
+        <span class="estado-chip" data-proyecto-estado>Por ejecutar</span>
+        <div class="miniaturas" data-proyecto-miniaturas></div>
+        <h3>Sobre el proyecto</h3>
+        <p data-proyecto-descripcion>Descripción del proyecto.</p>
+        <div data-proyecto-presupuesto></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/anuncios-config.js"></script>
+<script src="assets/js/proyectos-datos.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/proyectos.js"></script>
+<script>montarComponentes("obra-pastoral");</script>
+</body>
+</html>

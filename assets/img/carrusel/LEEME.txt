@@ -1,0 +1,16 @@
+Archivos esperados en esta carpeta (carrusel del Home):
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+
+Fotos sugeridas: misas, celebraciones, actividades comunitarias,
+cualquier imagen que la Iglesia quiera mostrar en la portada.
+
+Tamaño recomendado: 1600x900px (horizontal), para que se vea nítido
+sin pesar demasiado. Si subes una foto vertical, se recorta
+automáticamente para llenar el espacio.
+
+Para agregar más de 5 fotos, avísame y agrego los recuadros
+correspondientes en index.html (es un cambio simple).
