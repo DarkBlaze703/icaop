@@ -1,5 +1,0 @@
-Archivos de esta carpeta:
-- parroquia-san-bartolome.jpg   (logotipo, ya cargado)
-Pendientes:
-- mapa-misiones-peru.jpg          (mapa de misiones por región)
-- mision-san-antonio-de-padua.jpg (foto o logo de la misión)
