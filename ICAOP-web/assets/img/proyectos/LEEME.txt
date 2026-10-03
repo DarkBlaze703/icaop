@@ -1,0 +1,16 @@
+Cada proyecto tiene su PROPIA subcarpeta aquí dentro, nombrada
+igual que su "id" en assets/js/proyectos-datos.js. Dentro de cada
+subcarpeta, las fotos van numeradas: 01.jpg, 02.jpg, 03.jpg...
+
+Ejemplo ya cargado:
+- colegio-santa-maria/01.jpg ... 14.jpg
+
+Para agregar un proyecto nuevo:
+1. Crea una carpeta nueva aquí, por ejemplo: assets/img/proyectos/nombre-proyecto/
+2. Coloca las fotos numeradas (01.jpg, 02.jpg, ...) dentro.
+3. Agrega un bloque nuevo en assets/js/proyectos-datos.js con el
+   mismo "id" que el nombre de la carpeta, el título, estado,
+   descripción y "numImagenes" (cuántas fotos tiene).
+
+No hace falta tocar ningún archivo HTML ni crear páginas nuevas:
+la tarjeta y el modal de detalle se arman solos.

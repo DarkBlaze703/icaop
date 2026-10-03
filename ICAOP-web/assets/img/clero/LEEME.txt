@@ -1,0 +1,8 @@
+Fotos del clero (recortadas de los afiches oficiales, 360x360px):
+- arzobispo-moran-vidal.jpg
+- vicario-general-duran-barrera.jpg
+- gran-canciller-juan-romero.jpg
+- cepla-cranven-johnson.jpg, cepla-zamora-quispe.jpg, cepla-ordonez-bacca.jpg,
+  cepla-maisonett.jpg, cepla-rodas-herrera.jpg
+Pendiente: tribunal-eclesiastico.jpg
+Para reemplazar una foto, guarda la nueva con el MISMO nombre de archivo.
