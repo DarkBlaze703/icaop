@@ -1,0 +1,8 @@
+Archivos esperados en esta carpeta:
+- casa-de-paz.jpg
+- colegios-parroquiales.jpg
+- corporacion-educativa.jpg
+- federacion-abogados.jpg
+- asociacion-mujeres.jpg
+- heraldos-paz.jpg
+- prodinju.jpg
