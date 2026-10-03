@@ -1,2 +1,0 @@
-Archivos esperados en esta carpeta:
-- mapa-misiones-peru.jpg   (mapa o fotos de las misiones en Perú, por región)
