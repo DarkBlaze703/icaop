@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto · ICAOP</title>
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Contacto</div>
+      <h1>Contacto</h1>
+      <p>Escríbenos o visítanos — estaremos felices de atenderte.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+
+        <div class="card" id="datos-institucionales">
+          <h3>Datos institucionales</h3>
+
+          <p><i class="fa-solid fa-location-dot" style="color:var(--color-vino);"></i> <strong>Sede arquidiocesana</strong><br>
+             Psje. Melitón Carbajal 195, A.H. Miguel Grau Mz. B Lote 26 A — San Juan de Lurigancho, Lima (C.P. 15438)<br>
+             <span style="color:var(--color-gris);font-size:var(--texto-sm);">Entre Av. San Martín con Sta. Rosa, a 1 cuadra</span></p>
+
+          <p><i class="fa-solid fa-location-dot" style="color:var(--color-vino);"></i> <strong>Sede administrativa</strong><br>
+             Calle Los Topacios 390, Of. 101, Urb. Cerro Camacho — Santiago de Surco, Lima (C.P. 15023)</p>
+
+          <p><i class="fa-solid fa-phone" style="color:var(--color-vino);"></i> <a href="tel:+51994738400">+51 994 738 400</a></p>
+          <p><i class="fa-solid fa-phone" style="color:var(--color-vino);"></i> <a href="tel:+51955375303">+51 955 375 303</a></p>
+
+          <p><i class="fa-solid fa-envelope" style="color:var(--color-vino);"></i> <a href="mailto:icaop.peru@gmail.com" data-dato="contacto.correo" data-href-dato="contacto.correo">icaop.peru@gmail.com</a></p>
+        </div>
+
+        <div class="card">
+          <h3>Formulario general</h3>
+          <form data-form novalidate>
+            <div class="form-field">
+              <label for="ct-nombre">Nombre</label>
+              <input type="text" id="ct-nombre" name="nombre" required>
+            </div>
+            <div class="form-field">
+              <label for="ct-correo">Correo electrónico</label>
+              <input type="email" id="ct-correo" name="correo" required>
+            </div>
+            <div class="form-field">
+              <label for="ct-mensaje">Mensaje</label>
+              <textarea id="ct-mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+            <p class="form-msg" role="status"></p>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="callout-redes">
+        <div>
+          <h3><i class="fa-solid fa-heart"></i> Síguenos en nuestras redes</h3>
+          <p>Fotos de nuestras celebraciones, anuncios al momento y la vida diaria de la comunidad. Síguenos como @icaoperu.</p>
+        </div>
+        <div class="callout-redes-iconos">
+          <div data-red>
+            <a href="#" aria-label="Facebook" data-href-dato="contacto.redesSociales.facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+            <span class="etiqueta">Facebook</span>
+          </div>
+          <div data-red>
+            <a href="#" aria-label="Instagram" data-href-dato="contacto.redesSociales.instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <span class="etiqueta">Instagram</span>
+          </div>
+          <div data-red>
+            <a href="#" aria-label="TikTok" data-href-dato="contacto.redesSociales.tiktok" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+            <span class="etiqueta">TikTok</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="como-llegar">
+        <h3>Cómo llegar</h3>
+        <div class="grid grid-2">
+          <a class="card como-llegar-item" href="https://www.google.com/maps/search/?api=1&amp;query=Pasaje%20Melit%C3%B3n%20Carbajal%20195%2C%20San%20Juan%20de%20Lurigancho%2C%20Lima%2C%20Per%C3%BA" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span><strong>Sede arquidiocesana</strong><br>San Juan de Lurigancho · Abrir en Google Maps</span>
+          </a>
+          <a class="card como-llegar-item" href="https://www.google.com/maps/search/?api=1&amp;query=Calle%20Los%20Topacios%20390%2C%20Santiago%20de%20Surco%2C%20Lima%2C%20Per%C3%BA" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span><strong>Sede administrativa</strong><br>Santiago de Surco · Abrir en Google Maps</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script>montarComponentes("contacto");</script>
+</body>
+</html>

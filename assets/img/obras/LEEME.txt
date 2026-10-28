@@ -1,0 +1,11 @@
+Fotos de las obras (Obra Pastoral → Obras e instituciones).
+Coloca cada foto con EXACTAMENTE este nombre:
+- casa-de-paz.jpg
+- peco.jpg
+- colegios-parroquiales.jpg
+- corporacion-educativa.jpg
+- federacion-abogados.jpg
+- asociacion-mujeres.jpg
+- heraldo-amor-paz.jpg
+- prodeinjute.jpg
+Mientras no exista la foto, se muestra un ícono en su lugar.
