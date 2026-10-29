@@ -165,30 +165,35 @@ function pintarDatosDinamicos() {
 }
 
 /* ---------- Publicaciones de Facebook (Inicio) ----------
-   Facebook solo dibuja el recuadro al ancho que se le pide
-   (entre 180 y 500 px), así que se calcula según el espacio
-   disponible y se vuelve a pedir si cambia mucho el tamaño. */
+   Muestra las publicaciones escogidas en datos-contacto.js
+   (contacto.facebookPublicaciones). Facebook ya no muestra el
+   muro completo a visitantes sin sesión, pero sí publicaciones
+   sueltas. Si la lista está vacía, se muestra la cabecera de la
+   página como respaldo. */
 document.addEventListener("DOMContentLoaded", () => {
   const caja = document.querySelector("[data-fb-embed]");
   if (!caja) return;
-  const iframe = caja.querySelector("iframe");
-  const alto = parseInt(iframe.getAttribute("height"), 10) || 560;
-  let anchoActual = 0;
-  const cargar = () => {
-    const ancho = Math.max(180, Math.min(500, Math.floor(caja.clientWidth)));
-    if (Math.abs(ancho - anchoActual) < 40) return;
-    anchoActual = ancho;
-    const params = new URLSearchParams({
-      href: caja.dataset.fbEmbed, tabs: "timeline", width: ancho, height: alto,
-      small_header: "false", adapt_container_width: "true", hide_cover: "false", show_facepile: "false",
-      locale: { en: "en_US", fr: "fr_FR", pt: "pt_BR", de: "de_DE", ru: "ru_RU", ur: "ur_PK", zh: "zh_TW", fil: "tl_PH", el: "el_GR", ar: "ar_AR" }[window.ICAOP_IDIOMA] || "es_LA"
-    });
-    iframe.width = ancho;
-    iframe.src = "https://www.facebook.com/plugins/page.php?" + params.toString();
-  };
-  cargar();
-  let espera;
-  window.addEventListener("resize", () => { clearTimeout(espera); espera = setTimeout(cargar, 300); });
+  const pagina = caja.dataset.fbEmbed;
+  const publicaciones = (typeof DATOS_ICAOP !== "undefined" && DATOS_ICAOP.contacto.facebookPublicaciones) || [];
+  const locale = { en: "en_US", fr: "fr_FR", pt: "pt_BR", de: "de_DE", ru: "ru_RU", ur: "ur_PK", zh: "zh_TW", fil: "tl_PH", el: "el_GR", ar: "ar_AR" }[window.ICAOP_IDIOMA] || "es_LA";
+  const ancho = () => Math.max(180, Math.min(500, Math.floor(caja.clientWidth) - 2));
+
+  if (!publicaciones.length) {
+    caja.innerHTML = `<iframe title="Publicaciones de Facebook de la Parroquia San Bartolomé Apóstol" height="140" loading="lazy" allow="encrypted-media" src="https://www.facebook.com/plugins/page.php?${new URLSearchParams({ href: pagina, tabs: "", width: ancho(), height: 140, small_header: "false", hide_cover: "false", locale })}"></iframe>`;
+    return;
+  }
+
+  caja.classList.add("fb-embed--posts");
+  caja.innerHTML = publicaciones.map(url =>
+    `<div class="fb-post" data-href="${url.split("?")[0]}" data-width="${ancho()}" data-show-text="true"></div>`
+  ).join("");
+  if (!document.getElementById("fb-root")) {
+    const raiz = document.createElement("div"); raiz.id = "fb-root"; document.body.prepend(raiz);
+  }
+  const sdk = document.createElement("script");
+  sdk.async = true; sdk.defer = true; sdk.crossOrigin = "anonymous";
+  sdk.src = `https://connect.facebook.net/${locale}/sdk.js#xfbml=1&version=v19.0`;
+  document.body.appendChild(sdk);
 });
 
 /* ---------- Botones que llevan a otra pestaña (data-ir-tab) ---------- */

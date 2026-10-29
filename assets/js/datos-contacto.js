@@ -35,7 +35,12 @@ const DATOS_ICAOP = {
       facebook: "",
       instagram: "https://www.instagram.com/icaoperu",
       tiktok: "https://www.tiktok.com/@icaoperu"
-    }
+    },
+    // Publicaciones de Facebook que se muestran en Inicio (la más reciente primero).
+    // Para agregar una: en Facebook, "…" de la publicación → Copiar enlace, y pégalo aquí entre comillas.
+    facebookPublicaciones: [
+      "https://www.facebook.com/parroquia.sanbartolome.71/posts/pfbid07WxtRqy3Ks6zXuF3eoeQKN2B23UaPnukUrVdg2Uh6AvmxJ8FEjhUGtFPxWMCj5vpl"
+    ]
   },
 
   donaciones: {
