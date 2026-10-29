@@ -6,6 +6,7 @@
 <title>Donaciones · ICAOP</title>
 <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/i18n.js"></script>
 </head>
 <body>
 
@@ -25,6 +26,7 @@
 
       <div data-tabs class="tabs" role="tablist" aria-label="Secciones de Donaciones">
         <button class="tab-btn" data-tab="como-donar" aria-selected="true" role="tab">Cómo donar</button>
+        <button class="tab-btn" data-tab="galon-de-fe" aria-selected="false" role="tab">Campaña 1 Galón de Fe</button>
         <button class="tab-btn" data-tab="transparencia" aria-selected="false" role="tab">Transparencia</button>
         <button class="tab-btn" data-tab="legalidad" aria-selected="false" role="tab">Legalidad SUNAT</button>
         <button class="tab-btn" data-tab="contacto-donantes" aria-selected="false" role="tab">Contacto para donantes</button>
@@ -32,6 +34,11 @@
 
       <!-- CÓMO DONAR -->
       <div class="tab-panel is-active" data-tab-panel="como-donar">
+        <div class="campana-aviso">
+          <span class="campana-chip"><i class="fa-solid fa-gas-pump" aria-hidden="true"></i> Campaña activa</span>
+          <p><strong>1 Galón de Fe:</strong> ayúdanos a abrir el camino a Casa de Paz Perú.</p>
+          <button type="button" class="btn btn-dorado btn-sm" data-ir-tab="galon-de-fe">Conocer la campaña <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
         <div class="grid grid-2">
           <div>
             <h2>Cómo donar</h2>
@@ -55,6 +62,12 @@
             <div class="cuenta-bancaria">
               <span class="num" data-dato="donaciones.cuentaDolares.cci">011-832-000100024989-34</span>
               <button class="copy-btn" data-copy-dato="donaciones.cuentaDolares.cci">Copiar CCI</button>
+            </div>
+
+            <h3 style="margin-top:24px;">Transferencias desde el extranjero — <span data-dato="donaciones.bancoppel.banco">BanCoppel</span></h3>
+            <div class="cuenta-bancaria">
+              <span><span class="etiqueta-swift">Código SWIFT</span> <span class="num" data-dato="donaciones.bancoppel.swift">BNNMMXMM</span></span>
+              <button class="copy-btn" data-copy-dato="donaciones.bancoppel.swift">Copiar SWIFT</button>
             </div>
 
             <h3 style="margin-top:24px;">Pago con QR — Plin y otras billeteras</h3>
@@ -83,7 +96,7 @@
         </div>
 
         <div class="card donacion-asociacion">
-          <img class="asociacion-logo" src="assets/img/donaciones/logo-casa-de-paz.png" alt="Logo de Casa de Paz Perú — Asociación Internacional Heraldos del Amor por la Paz" loading="lazy">
+          <img class="asociacion-logo" src="assets/img/donaciones/logo-heraldos-paz.png" alt="Logo de la Asociación Internacional Heraldos del Amor por la Paz" loading="lazy">
           <div class="asociacion-datos">
             <span class="eyebrow">Obra social de la ICAOP</span>
             <h3 data-dato="donaciones.heraldos.nombre">Asociación Internacional Heraldos del Amor por la Paz</h3>
@@ -102,6 +115,70 @@
             <div class="qr-marco qr-yape"><img src="assets/img/donaciones/qr-yape-heraldos.png" alt="Código QR de Yape de la Asociación Internacional Heraldos del Amor por la Paz" loading="lazy"></div>
             <span class="qr-etiqueta"><i class="fa-solid fa-qrcode" aria-hidden="true"></i> Paga con Yape</span>
           </div>
+        </div>
+      </div>
+
+      <!-- CAMPAÑA 1 GALÓN DE FE -->
+      <div class="tab-panel" data-tab-panel="galon-de-fe">
+        <div class="campana">
+          <div class="campana-texto">
+            <span class="campana-chip"><i class="fa-solid fa-gas-pump" aria-hidden="true"></i> Campaña activa</span>
+            <h2>1 Galón de Fe</h2>
+            <p class="campana-sub">Abre camino a Casa de Paz Perú · San Antonio – Jicamarca</p>
+            <p>La Municipalidad de San Antonio nos presta sus máquinas para abrir la vía de acceso al Complejo Parroquial Casa de Paz Perú. Necesitamos 700 galones de petróleo para que puedan trabajar: cada galón que donas abre un metro de camino.</p>
+
+            <div class="campana-cifras">
+              <div><strong>S/ 22.50</strong><span>1 galón = 1 metro de esperanza</span></div>
+              <div><strong>700</strong><span>galones: meta de la campaña</span></div>
+              <div><strong>6</strong><span>obras para la comunidad</span></div>
+            </div>
+
+            <h3>¿Qué construiremos con tu galón?</h3>
+            <ol class="campana-obras">
+              <li><strong>Templo</strong><span>4,500 familias</span></li>
+              <li><strong>Santuario Señor de Qoyllur Rit'i</strong><span>3,000 peregrinos al año</span></li>
+              <li><strong>Colegio Parroquial Juan Pablo II</strong><span>120 niños de inicial y primaria</span></li>
+              <li><strong>Comedor popular</strong><span>120 raciones diarias</span></li>
+              <li><strong>Casa del Adulto Mayor</strong><span>60 ancianos en abandono</span></li>
+              <li><strong>Centro comunitario</strong><span>Familias en alto riesgo social</span></li>
+            </ol>
+
+            <dl class="campana-datos">
+              <div><dt><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Ubicación</dt><dd>Asoc. de Vivienda Su Santidad Juan Pablo II, Anexo 22 Pampa Canto Grande, San Antonio – Huarochirí</dd></div>
+              <div><dt><i class="fa-solid fa-handshake" aria-hidden="true"></i> Respaldo</dt><dd>Convenio N° 001-2026-MDSA-ICAOP · Decreto Arzobispal N° 023-2026-ICAOP</dd></div>
+            </dl>
+
+            <blockquote class="cita">«Preparad camino al Señor» — Isaías 40,3</blockquote>
+          </div>
+
+          <aside class="campana-afiches">
+            <h3 class="campana-aporta">Aporta a la campaña</h3>
+            <div class="campana-qr">
+              <img class="campana-qr-img" src="assets/img/donaciones/qr-bbva-icaop.png" alt="Código QR BBVA de la ICAOP para donar en soles" loading="lazy">
+              <div>
+                <strong>Dona en soles</strong>
+                <span>Plin · BBVA · otras billeteras</span>
+              </div>
+            </div>
+            <div class="campana-qr">
+              <img class="campana-qr-img" src="assets/img/donaciones/qr-yape-heraldos.png" alt="Código QR de Yape de la Asociación Internacional Heraldos del Amor por la Paz" loading="lazy">
+              <div>
+                <strong>Yape <span class="num">955 371 493</span></strong>
+                <span class="campana-qr-org"><img src="assets/img/donaciones/logo-heraldos-paz.png" alt="" width="28" height="28"> Asociación Internacional Heraldos del Amor por la Paz</span>
+              </div>
+            </div>
+            <p class="campana-nota">Escanea un código desde la app de tu banco o billetera. Si tienes dudas, escríbenos por WhatsApp.</p>
+            <h3 class="campana-aporta">Afiches</h3>
+            <button type="button" class="afiche-mini" data-afiche="assets/img/donaciones/afiche-galon-de-fe.jpg" data-afiche-titulo="Afiche de la campaña 1 Galón de Fe">
+              <img src="assets/img/donaciones/afiche-galon-de-fe.jpg" alt="Afiche de la campaña 1 Galón de Fe" loading="lazy">
+              <span><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> Ver afiche de la campaña</span>
+            </button>
+            <button type="button" class="afiche-mini" data-afiche="assets/img/donaciones/afiche-dona-y-participa.jpg" data-afiche-titulo="Afiche Dona y participa en nuestras obras sociales">
+              <img src="assets/img/donaciones/afiche-dona-y-participa.jpg" alt="Afiche Dona y participa en nuestras obras sociales" loading="lazy">
+              <span><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> Ver afiche: Dona y participa</span>
+            </button>
+            <a class="btn btn-primario btn-sm campana-whatsapp" href="https://wa.me/51994738400" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Escribir por WhatsApp</a>
+          </aside>
         </div>
       </div>
 
@@ -191,6 +268,17 @@
       <a href="assets/docs/resolucion-sunat-icaop.pdf" target="_blank" rel="noopener" class="btn btn-contorno btn-sm">Abrir en pestaña nueva</a>
       <a href="assets/docs/resolucion-sunat-icaop.pdf" download class="btn btn-primario btn-sm">Descargar PDF</a>
     </div>
+  </div>
+</div>
+
+<!-- MODAL: Afiche ampliado -->
+<div class="modal-overlay" id="modal-afiche-overlay">
+  <div class="modal-box modal-afiche" role="dialog" aria-modal="true" aria-labelledby="modal-afiche-titulo">
+    <div class="modal-head">
+      <h3 id="modal-afiche-titulo" data-afiche-titulo-modal>Afiche</h3>
+      <button class="modal-close" data-afiche-cerrar aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body"><img data-afiche-img src="" alt=""></div>
   </div>
 </div>
 

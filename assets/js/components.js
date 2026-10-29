@@ -8,9 +8,9 @@
 const ENLACES_NAV = [
   { href: "index.html", id: "inicio", texto: "Inicio" },
   { href: "nosotros.html", id: "nosotros", texto: "Nosotros" },
-  { href: "clero.html", id: "clero", texto: "Clero" },
+  { href: "clero.html", id: "clero", texto: "Miembros del Santo Sínodo" },
   { href: "obra-pastoral.html", id: "obra-pastoral", texto: "Obra Pastoral" },
-  { href: "donaciones.html", id: "donaciones", texto: "Donaciones" },
+  { href: "extension-apostolica.html", id: "extension", texto: "Extensión apostólica" },
   { href: "anuncios.html", id: "anuncios", texto: "Anuncios" },
   { href: "contacto.html", id: "contacto", texto: "Contacto" }
 ];
@@ -32,10 +32,30 @@ function renderHeader(paginaActual) {
       </nav>
       <div class="nav-cta">
         <a href="donaciones.html" class="btn btn-dorado btn-sm">Donar</a>
+        ${renderSelectorIdioma()}
         <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
       </div>
     </div>
   `;
+}
+
+function renderSelectorIdioma() {
+  const actual = window.ICAOP_IDIOMA || "es";
+  const bandera = window.banderaIdioma || (() => "");
+  const lista = window.ICAOP_IDIOMAS || [{ cod: "es", nombre: "Español", corto: "ES" }];
+  const datos = lista.find(l => l.cod === actual) || lista[0];
+  return `
+    <div class="idioma" data-idioma data-no-traducir>
+      <button type="button" class="idioma-btn" aria-haspopup="true" aria-expanded="false" aria-label="Idioma · Language">
+        ${bandera(actual)}<span class="idioma-cod">${datos.corto}</span><i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </button>
+      <ul class="idioma-menu" hidden>
+        ${lista.map(o => `
+          <li><button type="button" data-lang="${o.cod}" lang="${o.html || o.cod}" ${o.rtl ? 'dir="rtl"' : ""} ${o.cod === actual ? 'aria-current="true"' : ""}>
+            ${bandera(o.cod)}<span>${o.nombre}</span>${o.cod === actual ? '<i class="fa-solid fa-check" aria-hidden="true"></i>' : ""}
+          </button></li>`).join("")}
+      </ul>
+    </div>`;
 }
 
 function renderFooter() {
@@ -60,9 +80,12 @@ function renderFooter() {
         <h4>Enlaces rápidos</h4>
         <ul>
           <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="clero.html">Clero</a></li>
+          <li><a href="clero.html">Miembros del Santo Sínodo</a></li>
           <li><a href="obra-pastoral.html">Obra Pastoral</a></li>
+          <li><a href="extension-apostolica.html">Extensión apostólica</a></li>
           <li><a href="donaciones.html">Donaciones</a></li>
+          <li><a href="acreditaciones.html">Acreditaciones</a></li>
+          <li><a href="administracion.html">Administración</a></li>
           <li><a href="anuncios.html">Anuncios</a></li>
         </ul>
       </div>
@@ -97,4 +120,40 @@ function montarComponentes(paginaActual) {
   const footerEl = document.getElementById("site-footer");
   if (headerEl) headerEl.innerHTML = renderHeader(paginaActual);
   if (footerEl) footerEl.innerHTML = renderFooter();
+  montarBotonArriba();
+  if (headerEl) ajustarMenuCompacto(headerEl);
+}
+
+/* Si los enlaces del menú no caben en una línea (p. ej. en idiomas
+   con palabras largas), el menú pasa a modo hamburguesa. */
+function ajustarMenuCompacto(headerEl) {
+  const medir = () => {
+    headerEl.classList.remove("nav-compacta");
+    const barra = headerEl.querySelector(".nav-bar");
+    if (!barra || window.innerWidth <= 900) return;
+    headerEl.classList.toggle("nav-compacta", barra.scrollWidth > barra.clientWidth + 1);
+  };
+  medir();
+  setTimeout(medir, 300);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(medir);
+  window.addEventListener("resize", medir);
+}
+
+/* Botón para volver al inicio de la página (aparece al bajar) */
+function montarBotonArriba() {
+  if (document.querySelector(".btn-arriba")) return;
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.className = "btn-arriba";
+  btn.setAttribute("aria-label", "Volver arriba");
+  btn.setAttribute("title", "Volver arriba");
+  btn.innerHTML = '<i class="fa-solid fa-arrow-up" aria-hidden="true"></i><span class="btn-arriba-txt">Subir</span>';
+  document.body.appendChild(btn);
+  const actualizar = () => btn.classList.toggle("is-visible", window.scrollY > 400);
+  window.addEventListener("scroll", actualizar, { passive: true });
+  actualizar();
+  btn.addEventListener("click", () => {
+    const suave = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top: 0, behavior: suave ? "smooth" : "auto" });
+  });
 }

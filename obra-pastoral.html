@@ -6,6 +6,7 @@
 <title>Obra Pastoral · ICAOP</title>
 <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/i18n.js"></script>
 </head>
 <body>
 
@@ -72,8 +73,8 @@
 
         <div class="grid grid-3" style="margin-top:24px;">
           <div class="card">
-            <div class="card-foto" style="margin-bottom:12px;">
-              <img src="assets/img/obras/casa-de-paz.jpg" alt="Casa de Paz Perú" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+            <div class="card-foto card-foto--logo" style="margin-bottom:12px;">
+              <img src="assets/img/donaciones/logo-casa-de-paz.png" alt="Logo de Casa de Paz Perú" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
               <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-house"></i></span>
             </div>
             <h3>Casa de Paz Perú</h3>
@@ -120,8 +121,8 @@
             <p>Liderazgo femenino, educación teológica, empoderamiento y servicio a la comunidad.</p>
           </div>
           <div class="card">
-            <div class="card-foto" style="margin-bottom:12px;">
-              <img src="assets/img/obras/heraldo-amor-paz.jpg" alt="Asociación Internacional Heraldo del Amor por la Paz" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
+            <div class="card-foto card-foto--logo" style="margin-bottom:12px;">
+              <img src="assets/img/donaciones/logo-heraldos-paz.png" alt="Logo de la Asociación Internacional Heraldos del Amor por la Paz" onerror="this.style.display='none'; this.parentElement.querySelector('.placeholder-txt').style.display='block';">
               <span class="placeholder-txt" style="display:none;"><i class="fa-solid fa-dove"></i></span>
             </div>
             <h3>Asociación Internacional Heraldo del Amor por la Paz</h3>
@@ -188,6 +189,8 @@
         <div class="miniaturas" data-proyecto-miniaturas></div>
         <h3>Sobre el proyecto</h3>
         <p data-proyecto-descripcion>Descripción del proyecto.</p>
+        <div class="proyecto-secciones" data-proyecto-secciones hidden></div>
+        <div class="proyecto-video" data-proyecto-video hidden></div>
         <div data-proyecto-presupuesto></div>
       </div>
     </div>
@@ -210,6 +213,10 @@
         <p class="mision-cargo" data-mision-cargo hidden></p>
         <h3>Actividades en la zona</h3>
         <p data-mision-resena></p>
+        <div data-mision-lista-wrap hidden>
+          <h3>Parroquias, capillas y obras</h3>
+          <ul class="mision-lista" data-mision-lista></ul>
+        </div>
       </div>
     </div>
   </div>

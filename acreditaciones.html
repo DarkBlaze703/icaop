@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acreditaciones · ICAOP</title>
+<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="assets/js/i18n.js"></script>
+</head>
+<body>
+
+<header class="site-header" id="site-header"></header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html" style="color:inherit;">Inicio</a> / Acreditaciones</div>
+      <h1>Acreditaciones</h1>
+      <p>Documentos legales que respaldan a la Iglesia Católica Apostólica Ortodoxa del Perú.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:960px;">
+      <div class="doc-lista" data-acreditaciones></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<!-- MODAL: Visor de documento -->
+<div class="modal-overlay" id="modal-doc-overlay">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-doc-titulo">
+    <div class="modal-head">
+      <h3 id="modal-doc-titulo" data-doc-titulo>Documento</h3>
+      <button class="modal-close" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body">
+      <iframe src="about:blank" title="Documento"></iframe>
+    </div>
+    <div class="modal-foot">
+      <a href="#" target="_blank" rel="noopener" class="btn btn-contorno btn-sm" data-doc-abrir>Abrir en pestaña nueva</a>
+      <a href="#" download class="btn btn-primario btn-sm" data-doc-descargar>Descargar PDF</a>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/datos-contacto.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/acreditaciones-datos.js"></script>
+<script src="assets/js/acreditaciones.js"></script>
+<script>montarComponentes("acreditaciones");</script>
+</body>
+</html>

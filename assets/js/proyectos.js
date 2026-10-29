@@ -52,6 +52,7 @@ function initModalProyecto() {
 
 function cerrarModalProyecto() {
   const overlay = document.getElementById("modal-proyecto-overlay");
+  overlay.querySelectorAll("video").forEach(v => v.pause());
   overlay.classList.remove("is-open");
   document.body.style.overflow = "";
 }
@@ -90,6 +91,28 @@ function abrirModalProyecto(index) {
     miniaturas.innerHTML = "";
   }
 
+  // Servicios u otras listas del proyecto
+  const contSecciones = overlay.querySelector("[data-proyecto-secciones]");
+  if (contSecciones) {
+    contSecciones.innerHTML = (p.secciones || []).map(sec => `
+      <div class="proyecto-seccion">
+        <h3>${escapeHtml(sec.titulo)}</h3>
+        <ul class="lista-check proyecto-lista">${sec.items.map(it => `<li>${escapeHtml(it)}</li>`).join("")}</ul>
+      </div>`).join("");
+    contSecciones.hidden = !(p.secciones && p.secciones.length);
+  }
+
+  // Video del proyecto
+  const contVideo = overlay.querySelector("[data-proyecto-video]");
+  if (contVideo) {
+    contVideo.innerHTML = p.video ? `
+      <h3>Video del proyecto</h3>
+      <video controls preload="none" playsinline ${p.videoPortada ? `poster="${p.videoPortada}"` : ""}>
+        <source src="${p.video}" type="video/mp4">
+      </video>` : "";
+    contVideo.hidden = !p.video;
+  }
+
   // Presupuesto
   const contPresupuesto = overlay.querySelector("[data-proyecto-presupuesto]");
   if (p.presupuesto) {
@@ -102,7 +125,9 @@ function abrirModalProyecto(index) {
         <thead><tr><th>Partida</th><th>Monto</th></tr></thead>
         <tbody>
           ${filas}
-          <tr class="total-final"><td>Total estimado</td><td>${p.presupuesto.moneda} ${p.presupuesto.totalSoles} (≈ US$ ${p.presupuesto.totalDolares})</td></tr>
+          <tr class="total-final"><td>Total estimado</td><td>${p.presupuesto.totalSoles
+            ? `${p.presupuesto.moneda} ${p.presupuesto.totalSoles} (≈ US$ ${p.presupuesto.totalDolares})`
+            : `${p.presupuesto.moneda} ${p.presupuesto.total}`}</td></tr>
         </tbody>
       </table>
       <p style="font-size:var(--texto-sm);color:var(--color-gris);margin-top:8px;">Presupuesto referencial sujeto a actualización según avance del expediente técnico.</p>

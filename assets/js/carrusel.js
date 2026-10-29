@@ -4,7 +4,7 @@
    Las marcas de abajo permiten elegir una foto, y el botón
    de pausa detiene el cambio automático.
    Para cambiar las fotos: reemplaza los archivos de
-   assets/img/carrusel/ manteniendo los nombres (01.jpg ... 05.jpg).
+   assets/img/carrusel/ manteniendo los nombres (01.jpg ... 10.jpg).
    ========================================================= */
 
 document.addEventListener("DOMContentLoaded", () => {

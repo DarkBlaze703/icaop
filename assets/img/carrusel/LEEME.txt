@@ -1,0 +1,6 @@
+Fotos del carrusel de la portada (Inicio): 01.jpg a 10.jpg.
+Se muestran en ese orden; la 01 es la primera.
+
+Para cambiar una foto, reemplaza el archivo manteniendo el mismo nombre.
+Tamaño recomendado: horizontal, unos 1600 px de ancho.
+Para agregar o quitar fotos hay que ajustar la lista en index.html.

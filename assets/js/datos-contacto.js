@@ -50,6 +50,11 @@ const DATOS_ICAOP = {
       numero: "0011-0832-0100024989-34",
       cci: "011-832-000100024989-34"
     },
+    // Transferencias internacionales
+    bancoppel: {
+      banco: "BanCoppel",
+      swift: "BNNMMXMM"
+    },
     // Asociación Internacional Heraldos del Amor por la Paz (Casa de Paz)
     heraldos: {
       nombre: "Asociación Internacional Heraldos del Amor por la Paz",

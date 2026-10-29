@@ -30,5 +30,36 @@ const PROYECTOS_ICAOP = [
       totalSoles: "1,523,796.19",
       totalDolares: "395,791.22"
     }
+  },
+  {
+    id: "centro-salud-sojo",
+    titulo: "Centro de Salud Parroquial ICAOP – Sojo, Sullana",
+    estado: "por-ejecutar",
+    resumen: "Proyecto de inversión social: un centro de salud parroquial para la población más necesitada de Sojo, en Sullana (Piura).",
+    descripcion: "El Centro de Salud Parroquial ICAOP está pensado para la salud de los más necesitados del centro poblado de Sojo, distrito de Miguel Checa, provincia de Sullana (Piura). La zona tiene alrededor de 200,000 habitantes y cuenta solo con una posta médica, sin área de exámenes, que no llega a cubrir la demanda. El proyecto propone un centro de salud construido por módulos y equipado según las normas del Ministerio de Salud, con 25 médicos en distintas especialidades, para atender a más de 20,000 personas al mes.",
+    secciones: [
+      {
+        titulo: "Consultorios externos",
+        items: ["Medicina general", "Pediatría", "Ginecología", "Cardiología", "Neurología", "Odontología", "Neumología", "Otorrinolaringología", "Oftalmología"]
+      },
+      {
+        titulo: "Exámenes y servicios",
+        items: ["Ecografía", "Electrocardiograma", "Endoscopías", "Análisis clínicos", "Tomografía", "Rayos X", "Cirugía oftálmica", "Sala de trabajo de parto", "Morgue", "Capilla"]
+      }
+    ],
+    carpetaImagenes: "assets/img/proyectos/centro-salud-sojo/",
+    numImagenes: 12,
+    video: "assets/media/proyecto-centro-salud-sojo.mp4",
+    videoPortada: "assets/media/proyecto-centro-salud-sojo.jpg",
+    presupuesto: {
+      moneda: "US$",
+      filas: [
+        ["Infraestructura", "6,140,420.00"],
+        ["Equipos médicos y otros", "3,028,500.00"],
+        ["Expediente técnico", "350,480.00"],
+        ["Administración y gerencia", "525,500.00"]
+      ],
+      total: "10,044,900.00"
+    }
   }
 ];

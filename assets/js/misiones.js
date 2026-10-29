@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   grid.innerHTML = MISIONES_ICAOP.map((m, i) => `
     <button type="button" class="card region-btn" data-mision-index="${i}">
       <span class="region-nombre"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ${escaparMision(m.region)}</span>
+      ${(m.misiones || []).length ? `<span class="region-cuenta">${m.misiones.length} ${m.misiones.length === 1 ? "parroquia u obra" : "parroquias y obras"}</span>` : ""}
       <span class="region-ver">Ver misión <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
     </button>
   `).join("");
@@ -48,6 +49,22 @@ function abrirModalMision(index) {
   resena.textContent = m.resena || TEXTO_PENDIENTE;
   resena.classList.toggle("pendiente", !m.resena);
 
+  const lista = overlay.querySelector("[data-mision-lista]");
+  const listaWrap = overlay.querySelector("[data-mision-lista-wrap]");
+  const items = m.misiones || [];
+  listaWrap.hidden = items.length === 0;
+  lista.innerHTML = items.map(it => {
+    const tels = (it.telefonos || []).map(t =>
+      `<a href="tel:${telefonoMision(t)}">${escaparMision(t)}</a>`).join(" · ");
+    return `<li>
+      <strong>${escaparMision(it.nombre)}</strong>
+      ${it.lugar ? `<span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> ${escaparMision(it.lugar)}</span>` : ""}
+      ${it.personas ? `<span><i class="fa-solid fa-users" aria-hidden="true"></i> Atiende a ${escaparMision(it.personas)} personas</span>` : ""}
+      ${tels ? `<span><i class="fa-solid fa-phone" aria-hidden="true"></i> ${tels}</span>` : ""}
+      ${it.nota ? `<span class="nota">${escaparMision(it.nota)}</span>` : ""}
+    </li>`;
+  }).join("");
+
   const galeria = overlay.querySelector("[data-mision-galeria]");
   const miniaturas = overlay.querySelector("[data-mision-miniaturas]");
   galeria.classList.toggle("sin-fotos", !(m.numImagenes > 0));
@@ -80,6 +97,11 @@ function cerrarModalMision() {
   if (!overlay) return;
   overlay.classList.remove("is-open");
   document.body.style.overflow = "";
+}
+
+function telefonoMision(t) {
+  const d = String(t).replace(/\D/g, "");
+  return d.startsWith("01") ? "+51" + d.slice(1) : "+51" + d;
 }
 
 function escaparMision(str) {

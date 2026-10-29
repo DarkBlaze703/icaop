@@ -103,14 +103,14 @@ function initCopyButtons() {
       try {
         await navigator.clipboard.writeText(valor);
         const textoOriginal = btn.textContent;
-        btn.textContent = "¡Copiado!";
+        btn.textContent = window.t ? t("¡Copiado!") : "¡Copiado!";
         btn.classList.add("copiado");
         setTimeout(() => {
           btn.textContent = textoOriginal;
           btn.classList.remove("copiado");
         }, 1800);
       } catch (err) {
-        alert("No se pudo copiar automáticamente. Número: " + valor);
+        alert((window.t ? t("No se pudo copiar automáticamente. Número: ") : "No se pudo copiar automáticamente. Número: ") + valor);
       }
     });
   });
@@ -163,3 +163,70 @@ function pintarDatosDinamicos() {
     else if (valor === "") (el.closest("[data-red]") || el).hidden = true;
   });
 }
+
+/* ---------- Publicaciones de Facebook (Inicio) ----------
+   Facebook solo dibuja el recuadro al ancho que se le pide
+   (entre 180 y 500 px), así que se calcula según el espacio
+   disponible y se vuelve a pedir si cambia mucho el tamaño. */
+document.addEventListener("DOMContentLoaded", () => {
+  const caja = document.querySelector("[data-fb-embed]");
+  if (!caja) return;
+  const iframe = caja.querySelector("iframe");
+  const alto = parseInt(iframe.getAttribute("height"), 10) || 560;
+  let anchoActual = 0;
+  const cargar = () => {
+    const ancho = Math.max(180, Math.min(500, Math.floor(caja.clientWidth)));
+    if (Math.abs(ancho - anchoActual) < 40) return;
+    anchoActual = ancho;
+    const params = new URLSearchParams({
+      href: caja.dataset.fbEmbed, tabs: "timeline", width: ancho, height: alto,
+      small_header: "false", adapt_container_width: "true", hide_cover: "false", show_facepile: "false",
+      locale: { en: "en_US", fr: "fr_FR", pt: "pt_BR", de: "de_DE", ru: "ru_RU", ur: "ur_PK", zh: "zh_TW", fil: "tl_PH", el: "el_GR", ar: "ar_AR" }[window.ICAOP_IDIOMA] || "es_LA"
+    });
+    iframe.width = ancho;
+    iframe.src = "https://www.facebook.com/plugins/page.php?" + params.toString();
+  };
+  cargar();
+  let espera;
+  window.addEventListener("resize", () => { clearTimeout(espera); espera = setTimeout(cargar, 300); });
+});
+
+/* ---------- Botones que llevan a otra pestaña (data-ir-tab) ---------- */
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-ir-tab]");
+  if (!btn) return;
+  const destino = document.querySelector(`.tab-btn[data-tab="${btn.dataset.irTab}"]`);
+  if (destino) {
+    destino.click();
+    destino.closest("[data-tabs]").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+});
+
+/* ---------- Afiches ampliados (Donaciones) ---------- */
+document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.getElementById("modal-afiche-overlay");
+  if (!overlay) return;
+  const img = overlay.querySelector("[data-afiche-img]");
+  const titulo = overlay.querySelector("[data-afiche-titulo-modal]");
+  const tr = (txt) => (window.t ? window.t(txt) : txt);
+  let origen = null;
+  const cerrar = () => {
+    overlay.classList.remove("is-open");
+    document.body.style.overflow = "";
+    if (origen) origen.focus();
+  };
+  document.querySelectorAll("[data-afiche]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      origen = btn;
+      img.src = btn.dataset.afiche;
+      img.alt = tr(btn.dataset.aficheTitulo);
+      titulo.textContent = tr(btn.dataset.aficheTitulo);
+      overlay.classList.add("is-open");
+      document.body.style.overflow = "hidden";
+      overlay.querySelector("[data-afiche-cerrar]").focus();
+    });
+  });
+  overlay.querySelector("[data-afiche-cerrar]").addEventListener("click", cerrar);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) cerrar(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && overlay.classList.contains("is-open")) cerrar(); });
+});
