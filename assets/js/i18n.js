@@ -145,7 +145,7 @@
   if (datosIdioma.rtl) document.documentElement.dir = "rtl";
   document.documentElement.classList.add("idioma-" + idioma);
   document.write('<style id="i18n-ocultar">body{visibility:hidden}</style>');
-  document.write('<script src="assets/js/i18n-' + idioma + '.js?v=2026102902"><\/script>');
+  document.write('<script src="assets/js/i18n-' + idioma + '.js?v=2026102903"><\/script>');
 
   const ATRIBUTOS = ["alt", "title", "placeholder", "aria-label"];
   const SALTAR = new Set(["SCRIPT", "STYLE", "NOSCRIPT"]);

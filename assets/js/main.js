@@ -190,10 +190,23 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!document.getElementById("fb-root")) {
     const raiz = document.createElement("div"); raiz.id = "fb-root"; document.body.prepend(raiz);
   }
+  // Si el navegador bloquea Facebook (bloqueadores o protección contra
+  // rastreo), se muestra una tarjeta con enlace en lugar de un hueco vacío.
+  const respaldo = () => {
+    if (caja.querySelector('.fb-post[fb-xfbml-state="rendered"] iframe')) return;
+    caja.classList.remove("fb-embed--posts");
+    caja.classList.add("fb-embed--respaldo");
+    caja.innerHTML = `
+      <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+      <strong>Parroquia San Bartolomé Apóstol</strong>
+      <p>Mira nuestras últimas publicaciones, fotos y anuncios en Facebook.</p>`;
+  };
   const sdk = document.createElement("script");
   sdk.async = true; sdk.defer = true; sdk.crossOrigin = "anonymous";
   sdk.src = `https://connect.facebook.net/${locale}/sdk.js#xfbml=1&version=v19.0`;
+  sdk.onerror = respaldo;
   document.body.appendChild(sdk);
+  setTimeout(respaldo, 8000);
 });
 
 /* ---------- Botones que llevan a otra pestaña (data-ir-tab) ---------- */

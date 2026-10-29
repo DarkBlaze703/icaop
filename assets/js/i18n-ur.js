@@ -747,6 +747,7 @@ window.I18N_DIC = {
   "Municipalidad Distrital de San Antonio (Huarochirí)": "سان انتونیو ضلعی میونسپلٹی (واروچیری)",
   "Reconoce a la Junta Directiva de la Asociación «Iglesia Católica Apostólica Ortodoxa del Perú» – Casa de Paz Perú y la inscribe en el Registro Único de Organizaciones Sociales (RUOS).": "ایسوسی ایشن «Iglesia Católica Apostólica Ortodoxa del Perú» – کاسا دے پاز پیرو کے بورڈ آف ڈائریکٹرز کو تسلیم کرتی ہے اور اسے سماجی تنظیموں کے واحد رجسٹر (RUOS) میں درج کرتی ہے۔",
   "Del 22 de marzo de 2025 al 21 de marzo de 2027": "22 مارچ 2025 سے 21 مارچ 2027 تک",
+  "Mira nuestras últimas publicaciones, fotos y anuncios en Facebook.": "فیس بک پر ہماری تازہ پوسٹس، تصاویر اور اعلانات دیکھیں۔",
   "Misión Lima": "Lima مشن",
   "Misión Piura": "Piura مشن",
   "Misión Pasco · Oxapampa": "Pasco · Oxapampa مشن",
