@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Capelães que oferecem acompanhamento pastoral e espiritual em qualquer lugar do mundo.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo da Corporação Educativa Sagrado Corazón de Jesús y María",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo da Aliança Internacional Capelães sem Fronteiras",
-  "Alianza Internacional Capellanes sin Fronteras": "Aliança Internacional Capelães sem Fronteiras"
+  "Alianza Internacional Capellanes sin Fronteras": "Aliança Internacional Capelães sem Fronteiras",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Colégio Episcopal Peruano/Latino-americano (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Espaço de comunhão e coordenação dos bispos do Peru e da América Latina.",
+  "Fraternidad Misionera de la Divina Providencia": "Fraternidade Missionária da Divina Providência",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Evangelização e humanização dos povos. «Amar é servir, servir é amar».",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Brasão da Escola Paroquial S.S. Juan Pablo II de Jesús",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Logo da Federação Internacional de Advogados Ortodoxos",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Logo da Associação Internacional de Mulheres Católicas Ortodoxas",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Emblema da Fraternidade Missionária da Divina Providência",
+  "Escudo del Seminario Santo Tomás Apóstol": "Brasão do Seminário Santo Tomás Apóstol",
+  "Selecciona una campaña para ver el detalle.": "Selecione uma campanha para ver os detalhes.",
+  "Navidad 2026": "Natal 2026",
+  "Regreso a clases 2027": "Volta às aulas 2027",
+  "Selecciona un anuncio para ver el detalle.": "Selecione um anúncio para ver os detalhes."
 };
 
 window.I18N_PATRONES = [

@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "在世界各地提供牧靈與靈性陪伴的院牧。",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "耶穌聖心與聖母教育機構標誌",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "「無國界院牧」國際聯盟標誌",
-  "Alianza Internacional Capellanes sin Fronteras": "「無國界院牧」國際聯盟"
+  "Alianza Internacional Capellanes sin Fronteras": "「無國界院牧」國際聯盟",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "秘魯／拉丁美洲主教團（CEPPL）",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "秘魯與拉丁美洲主教們共融與協調的平台。",
+  "Fraternidad Misionera de la Divina Providencia": "天主上智傳教兄弟會",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "向萬民傳福音、使人性化。「愛就是服務，服務就是愛。」",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "聖若望保祿二世堂區學校校徽",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "國際東正教律師聯合會標誌",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "國際天主教東正教婦女協會標誌",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "天主上智傳教兄弟會徽章",
+  "Escudo del Seminario Santo Tomás Apóstol": "聖多默宗徒修院院徽",
+  "Selecciona una campaña para ver el detalle.": "請選擇一項活動以查看詳情。",
+  "Navidad 2026": "2026 年聖誕節",
+  "Regreso a clases 2027": "2027 年開學",
+  "Selecciona un anuncio para ver el detalle.": "請選擇一則公告以查看詳情。"
 };
 
 window.I18N_PATRONES = [

@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Chaplains offering pastoral and spiritual care anywhere in the world.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo of the Sagrado Corazón de Jesús y María Educational Corporation",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo of the International Alliance Chaplains Without Borders",
-  "Alianza Internacional Capellanes sin Fronteras": "International Alliance Chaplains Without Borders"
+  "Alianza Internacional Capellanes sin Fronteras": "International Alliance Chaplains Without Borders",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Peruvian/Latin American Episcopal College (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "A space of communion and coordination for the bishops of Peru and Latin America.",
+  "Fraternidad Misionera de la Divina Providencia": "Missionary Fraternity of Divine Providence",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Evangelization and humanization of peoples. “To love is to serve, to serve is to love.”",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Crest of the S.S. Juan Pablo II de Jesús Parish School",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Logo of the International Federation of Orthodox Lawyers",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Logo of the International Association of Orthodox Catholic Women",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Emblem of the Missionary Fraternity of Divine Providence",
+  "Escudo del Seminario Santo Tomás Apóstol": "Crest of the Santo Tomás Apóstol Seminary",
+  "Selecciona una campaña para ver el detalle.": "Select a campaign to see the details.",
+  "Navidad 2026": "Christmas 2026",
+  "Regreso a clases 2027": "Back to school 2027",
+  "Selecciona un anuncio para ver el detalle.": "Select an announcement to see the details."
 };
 
 window.I18N_PATRONES = [

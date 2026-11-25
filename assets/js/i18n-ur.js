@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "چیپلین جو دنیا میں ہر جگہ روحانی اور شبانی رہنمائی فراہم کرتے ہیں۔",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "ساگرادو کورازون دے خیسوس ای ماریا تعلیمی کارپوریشن کا لوگو",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "انٹرنیشنل الائنس چیپلینز ودآؤٹ بارڈرز کا لوگو",
-  "Alianza Internacional Capellanes sin Fronteras": "انٹرنیشنل الائنس چیپلینز ودآؤٹ بارڈرز"
+  "Alianza Internacional Capellanes sin Fronteras": "انٹرنیشنل الائنس چیپلینز ودآؤٹ بارڈرز",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "پیرو/لاطینی امریکی اسقفی کالج (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "پیرو اور لاطینی امریکہ کے اسقفوں کے لیے رفاقت اور ہم آہنگی کا مقام۔",
+  "Fraternidad Misionera de la Divina Providencia": "الٰہی پروردگاری کی مشنری برادری",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "قوموں کی بشارت اور انسانیت سازی۔ «محبت کرنا خدمت ہے، خدمت کرنا محبت ہے۔»",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "پیرش اسکول ایس ایس خوان پابلو دوم کا نشان",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "انٹرنیشنل فیڈریشن آف آرتھوڈوکس لائرز کا لوگو",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "کیتھولک آرتھوڈوکس خواتین کی بین الاقوامی ایسوسی ایشن کا لوگو",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "الٰہی پروردگاری کی مشنری برادری کا نشان",
+  "Escudo del Seminario Santo Tomás Apóstol": "سانتو توماس اپوستول سیمینری کا نشان",
+  "Selecciona una campaña para ver el detalle.": "تفصیل دیکھنے کے لیے ایک مہم منتخب کریں۔",
+  "Navidad 2026": "کرسمس 2026",
+  "Regreso a clases 2027": "اسکول واپسی 2027",
+  "Selecciona un anuncio para ver el detalle.": "تفصیل دیکھنے کے لیے ایک اعلان منتخب کریں۔"
 };
 
 window.I18N_PATRONES = [

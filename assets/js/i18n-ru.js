@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Капелланы, оказывающие пастырскую и духовную поддержку в любой точке мира.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Логотип образовательной корпорации «Святейшее Сердце Иисуса и Марии»",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Логотип Международного альянса «Капелланы без границ»",
-  "Alianza Internacional Capellanes sin Fronteras": "Международный альянс «Капелланы без границ»"
+  "Alianza Internacional Capellanes sin Fronteras": "Международный альянс «Капелланы без границ»",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Перуанская/Латиноамериканская епископская коллегия (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Пространство общения и координации епископов Перу и Латинской Америки.",
+  "Fraternidad Misionera de la Divina Providencia": "Миссионерское братство Божественного Провидения",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Евангелизация и гуманизация народов. «Любить — значит служить, служить — значит любить».",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Герб приходской школы «Св. Иоанн Павел II»",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Логотип Международной федерации православных юристов",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Логотип Международной ассоциации католических православных женщин",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Эмблема Миссионерского братства Божественного Провидения",
+  "Escudo del Seminario Santo Tomás Apóstol": "Герб семинарии Святого апостола Фомы",
+  "Selecciona una campaña para ver el detalle.": "Выберите кампанию, чтобы увидеть подробности.",
+  "Navidad 2026": "Рождество 2026",
+  "Regreso a clases 2027": "Снова в школу 2027",
+  "Selecciona un anuncio para ver el detalle.": "Выберите объявление, чтобы увидеть подробности."
 };
 
 window.I18N_PATRONES = [

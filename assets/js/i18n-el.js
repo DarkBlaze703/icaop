@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Ιερείς-εφημέριοι που προσφέρουν ποιμαντική και πνευματική συνοδεία σε κάθε σημείο του κόσμου.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Λογότυπο του Εκπαιδευτικού Οργανισμού Sagrado Corazón de Jesús y María",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Λογότυπο της Διεθνούς Συμμαχίας «Εφημέριοι χωρίς Σύνορα»",
-  "Alianza Internacional Capellanes sin Fronteras": "Διεθνής Συμμαχία «Εφημέριοι χωρίς Σύνορα»"
+  "Alianza Internacional Capellanes sin Fronteras": "Διεθνής Συμμαχία «Εφημέριοι χωρίς Σύνορα»",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Περουβιανό/Λατινοαμερικανικό Επισκοπικό Κολλέγιο (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Χώρος κοινωνίας και συντονισμού των επισκόπων του Περού και της Λατινικής Αμερικής.",
+  "Fraternidad Misionera de la Divina Providencia": "Ιεραποστολική Αδελφότητα της Θείας Πρόνοιας",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Ευαγγελισμός και εξανθρωπισμός των λαών. «Αγαπώ σημαίνει υπηρετώ, υπηρετώ σημαίνει αγαπώ».",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Έμβλημα του Ενοριακού Σχολείου Αγ. Ιωάννης Παύλος Β΄",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Λογότυπο της Διεθνούς Ομοσπονδίας Ορθοδόξων Δικηγόρων",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Λογότυπο της Διεθνούς Ένωσης Καθολικών Ορθοδόξων Γυναικών",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Έμβλημα της Ιεραποστολικής Αδελφότητας της Θείας Πρόνοιας",
+  "Escudo del Seminario Santo Tomás Apóstol": "Έμβλημα του Σεμιναρίου Santo Tomás Apóstol",
+  "Selecciona una campaña para ver el detalle.": "Επιλέξτε μια εκστρατεία για να δείτε τις λεπτομέρειες.",
+  "Navidad 2026": "Χριστούγεννα 2026",
+  "Regreso a clases 2027": "Επιστροφή στο σχολείο 2027",
+  "Selecciona un anuncio para ver el detalle.": "Επιλέξτε μια ανακοίνωση για να δείτε τις λεπτομέρειες."
 };
 
 window.I18N_PATRONES = [

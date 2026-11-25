@@ -216,6 +216,11 @@ document.addEventListener("click", (e) => {
   const destino = document.querySelector(`.tab-btn[data-tab="${btn.dataset.irTab}"]`);
   if (destino) {
     destino.click();
+    if (btn.dataset.irSel) {
+      const item = document.querySelector(`[data-sel-item="${btn.dataset.irSel}"]`);
+      const sel = item && item.closest("[data-selector]");
+      if (sel && sel._mostrar) sel._mostrar(btn.dataset.irSel);
+    }
     destino.closest("[data-tabs]").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 });
@@ -247,4 +252,49 @@ document.addEventListener("DOMContentLoaded", () => {
   overlay.querySelector("[data-afiche-cerrar]").addEventListener("click", cerrar);
   overlay.addEventListener("click", (e) => { if (e.target === overlay) cerrar(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && overlay.classList.contains("is-open")) cerrar(); });
+});
+
+/* ---------- Selector de campañas / anuncios (data-selector) ----------
+   Muestra una fila de tarjetas (una por cada [data-sel-item]) y solo el
+   elemento elegido, para no tener que bajar por toda la lista. */
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("[data-selector]").forEach((sel) => {
+    const items = [...sel.querySelectorAll(":scope > [data-sel-item]")];
+    if (!items.length) return;
+    const lista = document.createElement("div");
+    lista.className = "selector-lista";
+    lista.setAttribute("role", "tablist");
+    items.forEach((it) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "selector-opcion";
+      b.dataset.sel = it.dataset.selItem;
+      b.setAttribute("role", "tab");
+      if (it.dataset.selImg) {
+        const im = document.createElement("img");
+        im.src = it.dataset.selImg; im.alt = ""; im.loading = "lazy";
+        b.appendChild(im);
+      }
+      const tx = document.createElement("span"); tx.className = "selector-texto";
+      const sub = document.createElement("span"); sub.className = "selector-sub"; sub.textContent = it.dataset.selSub || "";
+      const tit = document.createElement("span"); tit.className = "selector-titulo"; tit.textContent = it.dataset.selTitulo || "";
+      tx.append(sub, tit); b.appendChild(tx);
+      lista.appendChild(b);
+    });
+    const ayuda = sel.querySelector(":scope > .selector-ayuda");
+    if (ayuda) ayuda.after(lista); else sel.prepend(lista);
+    if (items.length < 2) { lista.hidden = true; if (ayuda) ayuda.hidden = true; }
+    const mostrar = (id) => {
+      items.forEach((it) => { it.hidden = it.dataset.selItem !== id; });
+      lista.querySelectorAll(".selector-opcion").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.sel === id)));
+    };
+    sel._mostrar = mostrar;
+    lista.addEventListener("click", (e) => {
+      const b = e.target.closest(".selector-opcion");
+      if (!b) return;
+      mostrar(b.dataset.sel);
+      if (lista.getBoundingClientRect().top < 0) lista.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    mostrar(items[0].dataset.selItem);
+  });
 });

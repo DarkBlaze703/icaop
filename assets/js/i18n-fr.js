@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Des aumôniers qui offrent un accompagnement pastoral et spirituel partout dans le monde.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo de la Corporation éducative Sagrado Corazón de Jesús y María",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo de l'Alliance internationale Aumôniers sans frontières",
-  "Alianza Internacional Capellanes sin Fronteras": "Alliance internationale Aumôniers sans frontières"
+  "Alianza Internacional Capellanes sin Fronteras": "Alliance internationale Aumôniers sans frontières",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Collège épiscopal péruvien/latino-américain (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Espace de communion et de coordination des évêques du Pérou et d'Amérique latine.",
+  "Fraternidad Misionera de la Divina Providencia": "Fraternité missionnaire de la Divine Providence",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Évangélisation et humanisation des peuples. « Aimer, c'est servir ; servir, c'est aimer. »",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Blason de l'école paroissiale S.S. Juan Pablo II de Jesús",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Logo de la Fédération internationale des avocats orthodoxes",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Logo de l'Association internationale des femmes catholiques orthodoxes",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Emblème de la Fraternité missionnaire de la Divine Providence",
+  "Escudo del Seminario Santo Tomás Apóstol": "Blason du Séminaire Santo Tomás Apóstol",
+  "Selecciona una campaña para ver el detalle.": "Sélectionnez une campagne pour voir le détail.",
+  "Navidad 2026": "Noël 2026",
+  "Regreso a clases 2027": "Rentrée scolaire 2027",
+  "Selecciona un anuncio para ver el detalle.": "Sélectionnez une annonce pour voir le détail."
 };
 
 window.I18N_PATRONES = [

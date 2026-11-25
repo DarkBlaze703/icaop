@@ -8,8 +8,8 @@
 <link rel="apple-touch-icon" href="assets/img/logo/apple-touch-icon.png">
 <title>Heraldos del Amor por la Paz · ICAOP</title>
 <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
-<link rel="stylesheet" href="assets/css/styles.css?v=2026112506">
-<script src="assets/js/i18n.js?v=2026112506"></script>
+<link rel="stylesheet" href="assets/css/styles.css?v=2026112507">
+<script src="assets/js/i18n.js?v=2026112507"></script>
 </head>
 <body class="tema-heraldos">
 
@@ -58,7 +58,7 @@
             <div class="heraldos-icono"><i class="fa-solid fa-medal" aria-hidden="true"></i></div>
             <h3>Comisionados de Paz</h3>
             <p>Reconocemos a ciudadanas y ciudadanos que, con su trayectoria y sus valores, trabajan por la paz, la reconciliación y el desarrollo social del Perú.</p>
-            <button type="button" class="heraldos-enlace" data-ir-tab="anuncios">Ver convocatoria 2026 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            <button type="button" class="heraldos-enlace" data-ir-tab="anuncios" data-ir-sel="comisionados">Ver convocatoria 2026 <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
           </article>
         </div>
 
@@ -75,7 +75,7 @@
             <span class="campana-chip"><i class="fa-solid fa-gas-pump" aria-hidden="true"></i> Campaña activa</span>
             <h3>1 Galón de Fe</h3>
             <p>Ayúdanos a abrir la vía de acceso a Casa de Paz Perú: cada galón de petróleo que donas abre un metro de camino.</p>
-            <button type="button" class="btn btn-dorado btn-sm" data-ir-tab="campanas">Conocer la campaña <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-dorado btn-sm" data-ir-tab="campanas" data-ir-sel="galon">Conocer la campaña <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
           </div>
         </div>
 
@@ -88,7 +88,9 @@
 
       <!-- CAMPAÑAS -->
       <div class="tab-panel" data-tab-panel="campanas">
-        <article class="anuncio-heraldos">
+        <div class="selector" data-selector>
+        <p class="selector-ayuda">Selecciona una campaña para ver el detalle.</p>
+        <article class="anuncio-heraldos" data-sel-item="navidad" data-sel-titulo="Gran Campaña Navideña de Solidaridad" data-sel-sub="Navidad 2026" data-sel-img="assets/img/heraldos/afiche-navidad-2026.jpg">
           <div class="anuncio-navidad-cab">
             <header class="anuncio-heraldos-cab">
               <span class="campana-chip"><i class="fa-solid fa-gift" aria-hidden="true"></i> Campaña nacional · Navidad 2026</span>
@@ -186,9 +188,8 @@
           </div>
         </article>
 
-        <hr class="anuncio-separador">
 
-        <article class="anuncio-heraldos">
+        <article class="anuncio-heraldos" data-sel-item="mochila" data-sel-titulo="¡Una mochila, un sueño!" data-sel-sub="Regreso a clases 2027" data-sel-img="assets/img/heraldos/afiche-mochila-2027.jpg">
           <div class="anuncio-navidad-cab">
             <header class="anuncio-heraldos-cab">
               <span class="campana-chip"><i class="fa-solid fa-school" aria-hidden="true"></i> Campaña · Regreso a clases 2027</span>
@@ -268,9 +269,8 @@
           </div>
         </article>
 
-        <hr class="anuncio-separador">
 
-        <div class="campana">
+        <div class="campana" data-sel-item="galon" data-sel-titulo="1 Galón de Fe" data-sel-sub="Campaña activa" data-sel-img="assets/img/donaciones/afiche-galon-de-fe.jpg">
           <div class="campana-texto">
             <span class="campana-chip"><i class="fa-solid fa-gas-pump" aria-hidden="true"></i> Campaña activa</span>
             <h2>1 Galón de Fe</h2>
@@ -330,11 +330,14 @@
             <a class="btn btn-primario btn-sm campana-whatsapp" href="https://wa.me/51994738400" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Escribir por WhatsApp</a>
           </aside>
         </div>
+        </div>
       </div>
 
       <!-- ANUNCIOS -->
       <div class="tab-panel" data-tab-panel="anuncios">
-        <article class="anuncio-heraldos">
+        <div class="selector" data-selector>
+        <p class="selector-ayuda">Selecciona un anuncio para ver el detalle.</p>
+        <article class="anuncio-heraldos" data-sel-item="comisionados" data-sel-titulo="Nombramiento de Comisionados de Paz 2026" data-sel-sub="Convocatoria nacional" data-sel-img="assets/img/heraldos/afiche-comisionados-paz-2026.jpg">
           <header class="anuncio-heraldos-cab">
             <span class="campana-chip"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i> Convocatoria nacional</span>
             <h2>Nombramiento de Comisionados de Paz 2026</h2>
@@ -382,6 +385,7 @@
             <button type="button" class="btn btn-contorno btn-sm" data-afiche="assets/img/heraldos/afiche-comisionados-paz-2026.jpg" data-afiche-titulo="Afiche de la convocatoria Comisionados de Paz 2026"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i> Ver afiche</button>
           </div>
         </article>
+        </div>
       </div>
 
       <!-- DONACIONES -->
@@ -430,9 +434,9 @@
   </div>
 </div>
 
-<script src="assets/js/datos-contacto.js?v=2026112506"></script>
-<script src="assets/js/components.js?v=2026112506"></script>
-<script src="assets/js/main.js?v=2026112506"></script>
+<script src="assets/js/datos-contacto.js?v=2026112507"></script>
+<script src="assets/js/components.js?v=2026112507"></script>
+<script src="assets/js/main.js?v=2026112507"></script>
 <script>montarComponentes("heraldos");</script>
 </body>
 </html>

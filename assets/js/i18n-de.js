@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Seelsorger, die überall auf der Welt pastorale und geistliche Begleitung anbieten.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo der Bildungskorporation Sagrado Corazón de Jesús y María",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo der Internationalen Allianz Seelsorger ohne Grenzen",
-  "Alianza Internacional Capellanes sin Fronteras": "Internationale Allianz Seelsorger ohne Grenzen"
+  "Alianza Internacional Capellanes sin Fronteras": "Internationale Allianz Seelsorger ohne Grenzen",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Peruanisch-lateinamerikanisches Bischofskollegium (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Ort der Gemeinschaft und Koordination der Bischöfe Perus und Lateinamerikas.",
+  "Fraternidad Misionera de la Divina Providencia": "Missionarische Bruderschaft der Göttlichen Vorsehung",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Evangelisierung und Humanisierung der Völker. „Lieben heißt dienen, dienen heißt lieben.“",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Wappen der Pfarrschule S.S. Juan Pablo II de Jesús",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Logo der Internationalen Föderation orthodoxer Rechtsanwälte",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Logo der Internationalen Vereinigung katholisch-orthodoxer Frauen",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Emblem der Missionarischen Bruderschaft der Göttlichen Vorsehung",
+  "Escudo del Seminario Santo Tomás Apóstol": "Wappen des Seminars Santo Tomás Apóstol",
+  "Selecciona una campaña para ver el detalle.": "Wählen Sie eine Kampagne, um die Details zu sehen.",
+  "Navidad 2026": "Weihnachten 2026",
+  "Regreso a clases 2027": "Schulanfang 2027",
+  "Selecciona un anuncio para ver el detalle.": "Wählen Sie eine Ankündigung, um die Details zu sehen."
 };
 
 window.I18N_PATRONES = [

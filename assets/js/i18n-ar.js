@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "كهنة مرشدون يقدّمون المرافقة الرعوية والروحية في كل مكان من العالم.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "شعار المؤسسة التعليمية «قلب يسوع ومريم الأقدس»",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "شعار التحالف الدولي «مرشدون روحيون بلا حدود»",
-  "Alianza Internacional Capellanes sin Fronteras": "التحالف الدولي «مرشدون روحيون بلا حدود»"
+  "Alianza Internacional Capellanes sin Fronteras": "التحالف الدولي «مرشدون روحيون بلا حدود»",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "الكلية الأسقفية البيروفية/الأمريكية اللاتينية (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "فضاء للشركة والتنسيق بين أساقفة البيرو وأمريكا اللاتينية.",
+  "Fraternidad Misionera de la Divina Providencia": "الأخوية الإرسالية للعناية الإلهية",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "تبشير الشعوب وأنسنتها. «أن تحبّ هو أن تخدم، وأن تخدم هو أن تحبّ».",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "شعار مدرسة الرعية القديس يوحنا بولس الثاني",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "شعار الاتحاد الدولي للمحامين الأرثوذكس",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "شعار الجمعية الدولية للنساء الكاثوليكيات الأرثوذكسيات",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "شعار الأخوية الإرسالية للعناية الإلهية",
+  "Escudo del Seminario Santo Tomás Apóstol": "شعار إكليريكية القديس توما الرسول",
+  "Selecciona una campaña para ver el detalle.": "اختر حملة لعرض التفاصيل.",
+  "Navidad 2026": "عيد الميلاد 2026",
+  "Regreso a clases 2027": "العودة إلى المدرسة 2027",
+  "Selecciona un anuncio para ver el detalle.": "اختر إعلانًا لعرض التفاصيل."
 };
 
 window.I18N_PATRONES = [

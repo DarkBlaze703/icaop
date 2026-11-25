@@ -894,7 +894,20 @@ window.I18N_DIC = {
   "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Mga kapelyan na nagbibigay ng pastoral at espirituwal na paggabay saanman sa mundo.",
   "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo ng Korporasyong Pang-edukasyon Sagrado Corazón de Jesús y María",
   "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo ng Pandaigdigang Alyansa ng mga Kapelyan na Walang Hangganan",
-  "Alianza Internacional Capellanes sin Fronteras": "Pandaigdigang Alyansa ng mga Kapelyan na Walang Hangganan"
+  "Alianza Internacional Capellanes sin Fronteras": "Pandaigdigang Alyansa ng mga Kapelyan na Walang Hangganan",
+  "Colegio Episcopal Peruano/Latinoamericano (CEPPL)": "Kolehiyong Episkopal ng Peru/Latinoamerika (CEPPL)",
+  "Espacio de comunión y coordinación de los obispos del Perú y Latinoamérica.": "Puwang ng pakikipag-isa at koordinasyon ng mga obispo ng Peru at Latinoamerika.",
+  "Fraternidad Misionera de la Divina Providencia": "Fraternidad Misyonera ng Banal na Providencia",
+  "Evangelización y humanización de los pueblos. «Amar es servir, servir es amar».": "Ebanghelisasyon at pagpapakatao ng mga bayan. “Ang magmahal ay maglingkod, ang maglingkod ay magmahal.”",
+  "Escudo de la I.E. Parroquial S.S. Juan Pablo II de Jesús": "Sagisag ng Paaralang Parokyal S.S. Juan Pablo II de Jesús",
+  "Logo de la Federación Internacional de Abogados Ortodoxos": "Logo ng Pandaigdigang Pederasyon ng mga Abogadong Ortodokso",
+  "Logo de la Asociación Internacional de Mujeres Católicas Ortodoxas": "Logo ng Pandaigdigang Samahan ng mga Babaeng Katoliko Ortodokso",
+  "Emblema de la Fraternidad Misionera de la Divina Providencia": "Sagisag ng Fraternidad Misyonera ng Banal na Providencia",
+  "Escudo del Seminario Santo Tomás Apóstol": "Sagisag ng Seminaryo Santo Tomás Apóstol",
+  "Selecciona una campaña para ver el detalle.": "Pumili ng kampanya para makita ang detalye.",
+  "Navidad 2026": "Pasko 2026",
+  "Regreso a clases 2027": "Balik-eskwela 2027",
+  "Selecciona un anuncio para ver el detalle.": "Pumili ng anunsyo para makita ang detalye."
 };
 
 window.I18N_PATRONES = [
