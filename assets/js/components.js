@@ -9,6 +9,7 @@ const ENLACES_NAV = [
   { href: "index.html", id: "inicio", texto: "Inicio" },
   { href: "nosotros.html", id: "nosotros", texto: "Nosotros" },
   { href: "clero.html", id: "clero", texto: "Miembros del Santo Sínodo" },
+  { href: "instituciones.html", id: "instituciones", texto: "Instituciones" },
   { href: "obra-pastoral.html", id: "obra-pastoral", texto: "Obra Pastoral" },
   { href: "extension-apostolica.html", id: "extension", texto: "Extensión apostólica" },
   { href: "anuncios.html", id: "anuncios", texto: "Anuncios" },
@@ -81,6 +82,7 @@ function renderFooter() {
         <ul>
           <li><a href="nosotros.html">Nosotros</a></li>
           <li><a href="clero.html">Miembros del Santo Sínodo</a></li>
+          <li><a href="instituciones.html">Instituciones</a></li>
           <li><a href="obra-pastoral.html">Obra Pastoral</a></li>
           <li><a href="extension-apostolica.html">Extensión apostólica</a></li>
           <li><a href="donaciones.html">Donaciones</a></li>

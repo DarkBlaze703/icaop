@@ -1325,3 +1325,7 @@ body.tema-heraldos {
 }
 .navidad-campana .cita { margin-top: var(--space-3); font-size: 16px; }
 .navidad-convocan-linea { color: var(--color-gris); font-size: var(--texto-sm); }
+
+/* Menú: si no cabe, pasa a modo compacto en vez de encimarse */
+.nav-brand, .nav-links { flex-shrink: 0; }
+@media (max-width: 1400px) { .nav-links { gap: 12px; } .nav-links a { font-size: 14px; } }

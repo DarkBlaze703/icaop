@@ -883,7 +883,13 @@ window.I18N_DIC = {
   "Organizan:": "Organisé par :",
   "Asociación Internacional Heraldos del Amor por la Paz · Casa de Paz Perú — Parroquia San Bartolomé Apóstol, San Juan de Lurigancho": "Association internationale Hérauts de l'Amour pour la Paix · Casa de Paz Perú — Paroisse San Bartolomé Apóstol, San Juan de Lurigancho",
   "Tu generosidad hoy construye el mañana de muchos. ¡Gracias por ser parte de esta cadena de amor!": "Votre générosité d'aujourd'hui construit le lendemain de beaucoup. Merci de faire partie de cette chaîne d'amour !",
-  "Afiche de la campaña Una mochila, un sueño": "Affiche de la campagne Un sac à dos, un rêve"
+  "Afiche de la campaña Una mochila, un sueño": "Affiche de la campagne Un sac à dos, un rêve",
+  "Instituciones": "Institutions",
+  "/ Instituciones": "/ Institutions",
+  "Instituciones · ICAOP": "Institutions · ICAOP",
+  "Obras, instituciones y centros de formación de la Iglesia.": "Œuvres, institutions et centres de formation de l'Église.",
+  "Misiones y proyectos de la Iglesia — con foco en el Perú.": "Missions et projets de l'Église — avec un accent sur le Pérou.",
+  "Misiones y proyectos": "Missions et projets"
 };
 
 window.I18N_PATRONES = [
