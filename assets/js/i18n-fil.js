@@ -916,7 +916,9 @@ window.I18N_DIC = {
   "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "Digital na channel ng Simbahan: “Ang Tinig Katoliko Ortodokso, upang malaman at madama ang Katotohanan.”",
   "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Sagisag ng Pandaigdigang Komunyon ng mga Hurisdiksyon ng Ritong Ortodoksong Kanluranin",
   "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Pandaigdigang Komunyon ng mga Hurisdiksyon ng Ritong Ortodoksong Kanluranin",
-  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "“Unum in fide, plures in caritate”: iisa sa pananampalataya, iba-iba sa pag-ibig."
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "“Unum in fide, plures in caritate”: iisa sa pananampalataya, iba-iba sa pag-ibig.",
+  "Logo del Colegio Episcopal Peruano Latinoamericano": "Logo ng Kolehiyong Episkopal ng Peru at Latinoamerika",
+  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Sagisag ng Programa ng Edukasyong Katoliko Ortodokso (PECO)"
 };
 
 window.I18N_PATRONES = [

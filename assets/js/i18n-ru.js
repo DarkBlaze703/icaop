@@ -916,7 +916,9 @@ window.I18N_DIC = {
   "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "Цифровой канал Церкви: «Католический православный голос — чтобы знать и чувствовать Истину».",
   "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Герб Всемирного общения юрисдикций православного западного обряда",
   "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Всемирное общение юрисдикций православного западного обряда",
-  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: едины в вере, многообразны в любви."
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: едины в вере, многообразны в любви.",
+  "Logo del Colegio Episcopal Peruano Latinoamericano": "Логотип Перуанской латиноамериканской епископской коллегии",
+  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Герб Программы католического православного образования (PECO)"
 };
 
 window.I18N_PATRONES = [
