@@ -889,7 +889,12 @@ window.I18N_DIC = {
   "Instituciones · ICAOP": "Institutions · ICAOP",
   "Obras, instituciones y centros de formación de la Iglesia.": "Works, institutions and formation centres of the Church.",
   "Misiones y proyectos de la Iglesia — con foco en el Perú.": "Missions and projects of the Church — with a focus on Peru.",
-  "Misiones y proyectos": "Missions and projects"
+  "Misiones y proyectos": "Missions and projects",
+  "Entérate más en Facebook": "Learn more on Facebook",
+  "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Chaplains offering pastoral and spiritual care anywhere in the world.",
+  "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo of the Sagrado Corazón de Jesús y María Educational Corporation",
+  "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo of the International Alliance Chaplains Without Borders",
+  "Alianza Internacional Capellanes sin Fronteras": "International Alliance Chaplains Without Borders"
 };
 
 window.I18N_PATRONES = [

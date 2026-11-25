@@ -1329,3 +1329,16 @@ body.tema-heraldos {
 /* Menú: si no cabe, pasa a modo compacto en vez de encimarse */
 .nav-brand, .nav-links { flex-shrink: 0; }
 @media (max-width: 1400px) { .nav-links { gap: 12px; } .nav-links a { font-size: 14px; } }
+
+/* Instituciones: botón a Facebook al pie de cada tarjeta */
+.grid-instituciones > .card { display: flex; flex-direction: column; }
+.btn-fb {
+  margin-top: auto; align-self: flex-start;
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #1877F2; color: #fff; font-weight: 600; font-size: 14px;
+  padding: 9px 16px; border-radius: 999px; text-decoration: none;
+  transition: background .2s ease;
+}
+.btn-fb i { font-size: 18px; }
+.btn-fb:hover, .btn-fb:focus-visible { background: #0f5fd0; color: #fff; }
+.grid-instituciones > .card > p { margin-bottom: var(--space-3); }

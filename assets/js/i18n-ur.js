@@ -889,7 +889,12 @@ window.I18N_DIC = {
   "Instituciones · ICAOP": "ادارے · ICAOP",
   "Obras, instituciones y centros de formación de la Iglesia.": "کلیسیا کے کام، ادارے اور تربیتی مراکز۔",
   "Misiones y proyectos de la Iglesia — con foco en el Perú.": "کلیسیا کے مشن اور منصوبے — پیرو پر توجہ کے ساتھ۔",
-  "Misiones y proyectos": "مشن اور منصوبے"
+  "Misiones y proyectos": "مشن اور منصوبے",
+  "Entérate más en Facebook": "فیس بک پر مزید جانیں",
+  "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "چیپلین جو دنیا میں ہر جگہ روحانی اور شبانی رہنمائی فراہم کرتے ہیں۔",
+  "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "ساگرادو کورازون دے خیسوس ای ماریا تعلیمی کارپوریشن کا لوگو",
+  "Logo de la Alianza Internacional Capellanes sin Fronteras": "انٹرنیشنل الائنس چیپلینز ودآؤٹ بارڈرز کا لوگو",
+  "Alianza Internacional Capellanes sin Fronteras": "انٹرنیشنل الائنس چیپلینز ودآؤٹ بارڈرز"
 };
 
 window.I18N_PATRONES = [

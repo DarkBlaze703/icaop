@@ -889,7 +889,12 @@ window.I18N_DIC = {
   "Instituciones · ICAOP": "機構 · ICAOP",
   "Obras, instituciones y centros de formación de la Iglesia.": "教會的事工、機構與培育中心。",
   "Misiones y proyectos de la Iglesia — con foco en el Perú.": "教會的傳教與計畫 — 以秘魯為重點。",
-  "Misiones y proyectos": "傳教與計畫"
+  "Misiones y proyectos": "傳教與計畫",
+  "Entérate más en Facebook": "在 Facebook 上了解更多",
+  "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "在世界各地提供牧靈與靈性陪伴的院牧。",
+  "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "耶穌聖心與聖母教育機構標誌",
+  "Logo de la Alianza Internacional Capellanes sin Fronteras": "「無國界院牧」國際聯盟標誌",
+  "Alianza Internacional Capellanes sin Fronteras": "「無國界院牧」國際聯盟"
 };
 
 window.I18N_PATRONES = [

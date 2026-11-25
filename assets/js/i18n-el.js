@@ -889,7 +889,12 @@ window.I18N_DIC = {
   "Instituciones · ICAOP": "Ιδρύματα · ICAOP",
   "Obras, instituciones y centros de formación de la Iglesia.": "Έργα, ιδρύματα και κέντρα κατάρτισης της Εκκλησίας.",
   "Misiones y proyectos de la Iglesia — con foco en el Perú.": "Ιεραποστολές και έργα της Εκκλησίας — με επίκεντρο το Περού.",
-  "Misiones y proyectos": "Ιεραποστολές και έργα"
+  "Misiones y proyectos": "Ιεραποστολές και έργα",
+  "Entérate más en Facebook": "Μάθετε περισσότερα στο Facebook",
+  "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Ιερείς-εφημέριοι που προσφέρουν ποιμαντική και πνευματική συνοδεία σε κάθε σημείο του κόσμου.",
+  "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Λογότυπο του Εκπαιδευτικού Οργανισμού Sagrado Corazón de Jesús y María",
+  "Logo de la Alianza Internacional Capellanes sin Fronteras": "Λογότυπο της Διεθνούς Συμμαχίας «Εφημέριοι χωρίς Σύνορα»",
+  "Alianza Internacional Capellanes sin Fronteras": "Διεθνής Συμμαχία «Εφημέριοι χωρίς Σύνορα»"
 };
 
 window.I18N_PATRONES = [

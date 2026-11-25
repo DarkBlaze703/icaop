@@ -889,7 +889,12 @@ window.I18N_DIC = {
   "Instituciones · ICAOP": "Mga Institusyon · ICAOP",
   "Obras, instituciones y centros de formación de la Iglesia.": "Mga gawain, institusyon at sentro ng paghubog ng Simbahan.",
   "Misiones y proyectos de la Iglesia — con foco en el Perú.": "Mga misyon at proyekto ng Simbahan — nakatuon sa Peru.",
-  "Misiones y proyectos": "Mga misyon at proyekto"
+  "Misiones y proyectos": "Mga misyon at proyekto",
+  "Entérate más en Facebook": "Alamin pa sa Facebook",
+  "Capellanes que brindan acompañamiento pastoral y espiritual en todo lugar del mundo.": "Mga kapelyan na nagbibigay ng pastoral at espirituwal na paggabay saanman sa mundo.",
+  "Logo de la Corporación Educativa Sagrado Corazón de Jesús y María": "Logo ng Korporasyong Pang-edukasyon Sagrado Corazón de Jesús y María",
+  "Logo de la Alianza Internacional Capellanes sin Fronteras": "Logo ng Pandaigdigang Alyansa ng mga Kapelyan na Walang Hangganan",
+  "Alianza Internacional Capellanes sin Fronteras": "Pandaigdigang Alyansa ng mga Kapelyan na Walang Hangganan"
 };
 
 window.I18N_PATRONES = [
