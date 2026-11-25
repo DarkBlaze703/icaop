@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "ڈھلوان پر سہارا دینے والی دیواروں کے ساتھ ایک پلیٹ فارم پر Su Santidad Juan Pablo II پیرش اسکول و ہاسٹل کی مکمل تعمیر کا منصوبہ۔ اس میں کلاس روم کے ماڈیول، ایک انتظامی ماڈیول، چیپل، غسل خانے، مکمل بجلی اور پلمبنگ کی تنصیبات، اور کمپلیکس کی بجلی کی فراہمی کے لیے گرڈ سے منسلک شمسی توانائی کا نظام شامل ہے۔",
   "Fotos reales de la visita al terreno": "زمین کے دورے کی اصل تصاویر",
   "Diseño referencial": "حوالہ جاتی ڈیزائن",
-  "Foto real · visita al terreno": "اصل تصویر · زمین کا دورہ"
+  "Foto real · visita al terreno": "اصل تصویر · زمین کا دورہ",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "پیرش میں مقدس عبادت کے دوران جمع مومنین",
+  "Celebración litúrgica ante los iconos del santuario": "مقدس مقام کی شبیہوں کے سامنے عبادت",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "مادرِ الٰہی پروردگاری خانقاہ اور سانتو توماس اپوستول سیمینری میں عبادت",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "لباس پہنے پادری سان بارتولومے اپوستول پیرش میں داخل ہوتے ہوئے",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "ICAOP کے اسقفوں کی کلیسیائی رہنماؤں سے ملاقات"
 };
 
 window.I18N_PATRONES = [

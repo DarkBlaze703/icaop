@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "مشروع بناء متكامل للمدرسة الرعوية الداخلية Su Santidad Juan Pablo II، على منصة منحدر مع جدران استنادية. يشمل وحدات فصول دراسية، ووحدة إدارية، وكنيسة صغيرة، ومرافق صحية، وتمديدات كهربائية وصحية كاملة، إضافةً إلى نظام طاقة شمسية متصل بالشبكة لتزويد المجمّع بالكهرباء.",
   "Fotos reales de la visita al terreno": "صور حقيقية من زيارة الموقع",
   "Diseño referencial": "تصميم مرجعي",
-  "Foto real · visita al terreno": "صورة حقيقية · زيارة الموقع"
+  "Foto real · visita al terreno": "صورة حقيقية · زيارة الموقع",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "مؤمنون مجتمعون خلال القداس الإلهي في الرعية",
+  "Celebración litúrgica ante los iconos del santuario": "احتفال ليتورجي أمام أيقونات الهيكل",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "احتفال في دير أم العناية الإلهية وإكليريكية القديس توما الرسول",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "إكليروس بالحلل الكهنوتية يدخلون رعية القديس برثولماوس الرسول",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "لقاء أساقفة ICAOP مع سلطات كنسية"
 };
 
 window.I18N_PATRONES = [

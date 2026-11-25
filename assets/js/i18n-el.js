@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Σχέδιο ολοκληρωμένης κατασκευής του Ενοριακού Σχολείου-Οικοτροφείου Su Santidad Juan Pablo II, σε πλατφόρμα πλαγιάς με τοίχους αντιστήριξης. Περιλαμβάνει μονάδες αιθουσών διδασκαλίας, διοικητική μονάδα, παρεκκλήσι, χώρους υγιεινής, πλήρεις ηλεκτρικές και υδραυλικές εγκαταστάσεις, καθώς και σύστημα ηλιακής ενέργειας συνδεδεμένο στο δίκτυο για την ηλεκτροδότηση του συγκροτήματος.",
   "Fotos reales de la visita al terreno": "Πραγματικές φωτογραφίες από την επίσκεψη στο οικόπεδο",
   "Diseño referencial": "Ενδεικτικός σχεδιασμός",
-  "Foto real · visita al terreno": "Πραγματική φωτογραφία · επίσκεψη στο οικόπεδο"
+  "Foto real · visita al terreno": "Πραγματική φωτογραφία · επίσκεψη στο οικόπεδο",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "Πιστοί συγκεντρωμένοι στη Θεία Λειτουργία της ενορίας",
+  "Celebración litúrgica ante los iconos del santuario": "Λειτουργική τελετή μπροστά στις εικόνες του ιερού",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "Τελετή στη Μονή Μητέρας της Θείας Πρόνοιας και στο Σεμινάριο Santo Tomás Apóstol",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "Ενδεδυμένος κλήρος εισέρχεται στην Ενορία San Bartolomé Apóstol",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "Συνάντηση επισκόπων της ICAOP με εκκλησιαστικές αρχές"
 };
 
 window.I18N_PATRONES = [

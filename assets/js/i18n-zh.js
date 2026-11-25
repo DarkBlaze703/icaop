@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "在山坡平台上興建 Su Santidad Juan Pablo II 堂區學校暨之家的整體工程，並設有擋土牆。內容包括教室模組、行政模組、小堂、衛浴、完整的電力與給排水設施，以及併網太陽能系統，為整個園區供電。",
   "Fotos reales de la visita al terreno": "實地考察真實照片",
   "Diseño referencial": "參考設計圖",
-  "Foto real · visita al terreno": "真實照片 · 實地考察"
+  "Foto real · visita al terreno": "真實照片 · 實地考察",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "信眾在堂區參與聖禮儀",
+  "Celebración litúrgica ante los iconos del santuario": "在聖所聖像前舉行禮儀",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "在天主上智之母隱修院暨聖多默宗徒修院舉行慶典",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "身著禮服的神職人員進入聖巴爾多祿茂宗徒堂區",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "ICAOP 主教與教會長上會面"
 };
 
 window.I18N_PATRONES = [

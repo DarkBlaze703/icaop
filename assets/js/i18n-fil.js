@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Proyekto ng buong pagtatayo ng Parish School at Tahanan ng Su Santidad Juan Pablo II, sa isang plataporma sa gilid ng burol na may mga retaining wall. Kabilang dito ang mga module ng silid-aralan, isang administratibong module, kapilya, mga palikuran, kumpletong instalasyong elektrikal at tubero, at sistemang solar energy na nakakonekta sa grid upang suplayan ng kuryente ang buong complex.",
   "Fotos reales de la visita al terreno": "Totoong mga larawan mula sa pagbisita sa lugar",
   "Diseño referencial": "Disenyong sanggunian",
-  "Foto real · visita al terreno": "Totoong larawan · pagbisita sa lugar"
+  "Foto real · visita al terreno": "Totoong larawan · pagbisita sa lugar",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "Mga mananampalatayang nagtipon sa Banal na Liturhiya sa parokya",
+  "Celebración litúrgica ante los iconos del santuario": "Pagdiriwang liturhikal sa harap ng mga icon ng santuwaryo",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "Pagdiriwang sa Monasteryo Ina ng Banal na Providencia at Seminaryo Santo Tomás Apóstol",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "Kaparian na nakasuot ng bestidura na pumapasok sa Parokya ng San Bartolomé Apóstol",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "Pagpupulong ng mga obispo ng ICAOP sa mga awtoridad ng Simbahan"
 };
 
 window.I18N_PATRONES = [

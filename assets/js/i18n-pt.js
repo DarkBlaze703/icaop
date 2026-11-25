@@ -923,7 +923,12 @@ window.I18N_DIC = {
   "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Projeto de construção integral do Colégio Lar Paroquial Su Santidad Juan Pablo II, sobre uma plataforma em encosta com muros de contenção. Contempla módulos de salas de aula, um módulo administrativo, capela, banheiros, instalações elétricas e hidráulicas completas e um sistema de energia solar conectado à rede para o abastecimento elétrico do complexo.",
   "Fotos reales de la visita al terreno": "Fotos reais da visita ao terreno",
   "Diseño referencial": "Projeto referencial",
-  "Foto real · visita al terreno": "Foto real · visita ao terreno"
+  "Foto real · visita al terreno": "Foto real · visita ao terreno",
+  "Fieles reunidos durante la Santa Liturgia en la parroquia": "Fiéis reunidos durante a Santa Liturgia na paróquia",
+  "Celebración litúrgica ante los iconos del santuario": "Celebração litúrgica diante dos ícones do santuário",
+  "Celebración en el Monasterio Madre de la Divina Providencia y Seminario Santo Tomás Apóstol": "Celebração no Mosteiro Mãe da Divina Providência e Seminário Santo Tomás Apóstol",
+  "Clero revestido ingresando a la Parroquia San Bartolomé Apóstol": "Clero paramentado entrando na Paróquia San Bartolomé Apóstol",
+  "Encuentro de obispos de la ICAOP con autoridades eclesiásticas": "Encontro dos bispos da ICAOP com autoridades eclesiásticas"
 };
 
 window.I18N_PATRONES = [
