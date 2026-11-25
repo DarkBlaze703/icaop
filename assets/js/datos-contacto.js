@@ -29,7 +29,7 @@ const DATOS_ICAOP = {
       { etiqueta: "Teléfono 1", numero: "+51 994 738 400" },
       { etiqueta: "Teléfono 2", numero: "+51 955 375 303" }
     ],
-    correo: "icaop.peru@gmail.com",
+    correo: "contacto@icaop.org",
     redesSociales: {
       // Deja un enlace vacío ("") para ocultar esa red en toda la web
       facebook: "",
@@ -44,7 +44,7 @@ const DATOS_ICAOP = {
   },
 
   donaciones: {
-    correo: "icaop.peru@gmail.com",
+    correo: "contacto@icaop.org",
     celular: "+51 994 738 400",
     banco: "BBVA Continental",
     cuentaSoles: {

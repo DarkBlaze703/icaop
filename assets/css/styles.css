@@ -1292,3 +1292,34 @@ body.tema-heraldos {
   .comisionados { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .comisionado img { width: 96px; height: 96px; }
 }
+
+/* Anuncio de Navidad (Heraldos) */
+.anuncio-navidad-cab { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: var(--space-5); align-items: start; }
+.anuncio-navidad-cab .afiche-mini img { aspect-ratio: 1 / 1.1; }
+.anuncio-navidad-fecha { grid-template-columns: minmax(0, 420px); margin-top: 0; }
+.navidad-campanas { margin-bottom: var(--space-4); }
+.navidad-campana h3 { margin: 12px 0 2px; }
+.navidad-para { margin: 0 0 10px; font-weight: 700; color: var(--color-dorado-oscuro); }
+.navidad-campana h4 { margin: var(--space-3) 0 6px; font-size: 16px; color: var(--color-vino-oscuro); }
+.navidad-campana .proyecto-lista { columns: 1; }
+.navidad-yape { list-style: none; margin: 0 0 12px; padding: 0; }
+.navidad-yape li { margin-bottom: 6px; }
+.navidad-yape .num { font-weight: 700; white-space: nowrap; }
+.anuncio-heraldos-info .card p + p { margin-top: 10px; }
+.anuncio-heraldos-info .cuenta-bancaria { margin-top: 8px; }
+.navidad-convocan h4 { margin: 0 0 8px; color: var(--color-vino-oscuro); }
+.navidad-convocan ul { margin: 0 0 10px; padding-inline-start: 20px; }
+.navidad-convocan p { margin: 0; color: var(--color-gris); }
+.navidad-cierre { margin: var(--space-4) 0; font-family: var(--font-titulos); font-style: italic; font-size: 19px; color: var(--color-vino-oscuro); }
+.navidad-voluntario { align-self: center; color: var(--color-gris); font-size: var(--texto-sm); }
+.anuncio-separador { border: 0; border-top: 2px dashed var(--color-borde-fuerte); margin: var(--space-6) 0; }
+@media (max-width: 760px) {
+  .anuncio-navidad-cab { grid-template-columns: 1fr; }
+  .anuncio-navidad-cab .afiche-mini { max-width: 260px; }
+}
+.navidad-campana .proyecto-lista { list-style: none; padding: 0; }
+.navidad-campana .proyecto-lista li { position: relative; padding-inline-start: 24px; font-size: 15px; }
+.navidad-campana .proyecto-lista li::before {
+  content: "\f00c"; font-family: "Font Awesome 6 Free"; font-weight: 900;
+  position: absolute; inset-inline-start: 0; top: 1px; color: var(--color-dorado-oscuro); font-size: 13px;
+}
