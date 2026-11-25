@@ -9,10 +9,10 @@
 const PROYECTOS_ICAOP = [
   {
     id: "colegio-santa-maria",
-    titulo: "Colegio Hogar Parroquial Santa María Madre de Dios",
+    titulo: "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
     estado: "por-ejecutar", // "por-ejecutar" o "ejecutado"
     resumen: "Construcción de un colegio-hogar parroquial: aulas, capilla, instalaciones y sistema de energía solar.",
-    descripcion: "Proyecto de construcción integral del Colegio Hogar Parroquial Santa María Madre de Dios, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.",
+    descripcion: "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.",
     carpetaImagenes: "assets/img/proyectos/colegio-santa-maria/",
     numImagenes: 14,
     presupuesto: {

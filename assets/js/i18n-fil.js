@@ -918,7 +918,9 @@ window.I18N_DIC = {
   "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Pandaigdigang Komunyon ng mga Hurisdiksyon ng Ritong Ortodoksong Kanluranin",
   "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "“Unum in fide, plures in caritate”: iisa sa pananampalataya, iba-iba sa pag-ibig.",
   "Logo del Colegio Episcopal Peruano Latinoamericano": "Logo ng Kolehiyong Episkopal ng Peru at Latinoamerika",
-  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Sagisag ng Programa ng Edukasyong Katoliko Ortodokso (PECO)"
+  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Sagisag ng Programa ng Edukasyong Katoliko Ortodokso (PECO)",
+  "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú": "Parish School at Tahanan ng Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
+  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Proyekto ng buong pagtatayo ng Parish School at Tahanan ng Su Santidad Juan Pablo II, sa isang plataporma sa gilid ng burol na may mga retaining wall. Kabilang dito ang mga module ng silid-aralan, isang administratibong module, kapilya, mga palikuran, kumpletong instalasyong elektrikal at tubero, at sistemang solar energy na nakakonekta sa grid upang suplayan ng kuryente ang buong complex."
 };
 
 window.I18N_PATRONES = [

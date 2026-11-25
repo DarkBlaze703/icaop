@@ -918,7 +918,9 @@ window.I18N_DIC = {
   "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "الشركة العالمية لولايات الطقس الأرثوذكسي الغربي",
   "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: واحد في الإيمان، متنوعون في المحبة.",
   "Logo del Colegio Episcopal Peruano Latinoamericano": "شعار الكلية الأسقفية البيروفية الأمريكية اللاتينية",
-  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "شعار برنامج التعليم الكاثوليكي الأرثوذكسي (PECO)"
+  "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "شعار برنامج التعليم الكاثوليكي الأرثوذكسي (PECO)",
+  "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú": "المدرسة الرعوية الداخلية Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
+  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "مشروع بناء متكامل للمدرسة الرعوية الداخلية Su Santidad Juan Pablo II، على منصة منحدر مع جدران استنادية. يشمل وحدات فصول دراسية، ووحدة إدارية، وكنيسة صغيرة، ومرافق صحية، وتمديدات كهربائية وصحية كاملة، إضافةً إلى نظام طاقة شمسية متصل بالشبكة لتزويد المجمّع بالكهرباء."
 };
 
 window.I18N_PATRONES = [
