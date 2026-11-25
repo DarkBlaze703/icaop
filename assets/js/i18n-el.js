@@ -907,7 +907,16 @@ window.I18N_DIC = {
   "Selecciona una campaña para ver el detalle.": "Επιλέξτε μια εκστρατεία για να δείτε τις λεπτομέρειες.",
   "Navidad 2026": "Χριστούγεννα 2026",
   "Regreso a clases 2027": "Επιστροφή στο σχολείο 2027",
-  "Selecciona un anuncio para ver el detalle.": "Επιλέξτε μια ανακοίνωση για να δείτε τις λεπτομέρειες."
+  "Selecciona un anuncio para ver el detalle.": "Επιλέξτε μια ανακοίνωση για να δείτε τις λεπτομέρειες.",
+  "Logo de la ONG PRODEINJUTE": "Λογότυπο της ΜΚΟ PRODEINJUTE",
+  "Logo del Colegio Académico Niño de Jesús": "Λογότυπο του Colegio Académico Niño de Jesús",
+  "Colegio Académico Niño de Jesús": "Colegio Académico Niño de Jesús",
+  "Educación inicial, primaria y secundaria, además de academia preuniversitaria.": "Προσχολική, πρωτοβάθμια και δευτεροβάθμια εκπαίδευση, καθώς και προπαρασκευαστική ακαδημία.",
+  "Logo de ICAOP TV Perú": "Λογότυπο του ICAOP TV Perú",
+  "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "Ψηφιακό κανάλι της Εκκλησίας: «Η Καθολική Ορθόδοξη Φωνή, για να γνωρίζεις και να νιώθεις την Αλήθεια».",
+  "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Έμβλημα της Παγκόσμιας Κοινωνίας Δικαιοδοσιών Δυτικού Ορθόδοξου Τυπικού",
+  "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Παγκόσμια Κοινωνία Δικαιοδοσιών Δυτικού Ορθόδοξου Τυπικού",
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: ένα στην πίστη, πολλοί στην αγάπη."
 };
 
 window.I18N_PATRONES = [

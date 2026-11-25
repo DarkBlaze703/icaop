@@ -907,7 +907,16 @@ window.I18N_DIC = {
   "Selecciona una campaña para ver el detalle.": "請選擇一項活動以查看詳情。",
   "Navidad 2026": "2026 年聖誕節",
   "Regreso a clases 2027": "2027 年開學",
-  "Selecciona un anuncio para ver el detalle.": "請選擇一則公告以查看詳情。"
+  "Selecciona un anuncio para ver el detalle.": "請選擇一則公告以查看詳情。",
+  "Logo de la ONG PRODEINJUTE": "PRODEINJUTE 非政府組織標誌",
+  "Logo del Colegio Académico Niño de Jesús": "聖嬰耶穌學院標誌",
+  "Colegio Académico Niño de Jesús": "聖嬰耶穌學院（Colegio Académico Niño de Jesús）",
+  "Educación inicial, primaria y secundaria, además de academia preuniversitaria.": "提供幼兒、小學及中學教育，並設有大學預科班。",
+  "Logo de ICAOP TV Perú": "ICAOP TV Perú 標誌",
+  "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "教會的數位頻道：「天主教東正教之聲，認識並感受真理」。",
+  "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "西方禮儀東正教轄區世界共融會徽章",
+  "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "西方禮儀東正教轄區世界共融會",
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "「Unum in fide, plures in caritate」：在信仰中合一，在愛德中多元。"
 };
 
 window.I18N_PATRONES = [

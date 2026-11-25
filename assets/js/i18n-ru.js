@@ -907,7 +907,16 @@ window.I18N_DIC = {
   "Selecciona una campaña para ver el detalle.": "Выберите кампанию, чтобы увидеть подробности.",
   "Navidad 2026": "Рождество 2026",
   "Regreso a clases 2027": "Снова в школу 2027",
-  "Selecciona un anuncio para ver el detalle.": "Выберите объявление, чтобы увидеть подробности."
+  "Selecciona un anuncio para ver el detalle.": "Выберите объявление, чтобы увидеть подробности.",
+  "Logo de la ONG PRODEINJUTE": "Логотип НКО PRODEINJUTE",
+  "Logo del Colegio Académico Niño de Jesús": "Логотип школы «Младенец Иисус»",
+  "Colegio Académico Niño de Jesús": "Школа «Младенец Иисус» (Colegio Académico Niño de Jesús)",
+  "Educación inicial, primaria y secundaria, además de academia preuniversitaria.": "Дошкольное, начальное и среднее образование, а также подготовительная академия.",
+  "Logo de ICAOP TV Perú": "Логотип ICAOP TV Perú",
+  "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "Цифровой канал Церкви: «Католический православный голос — чтобы знать и чувствовать Истину».",
+  "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Герб Всемирного общения юрисдикций православного западного обряда",
+  "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "Всемирное общение юрисдикций православного западного обряда",
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: едины в вере, многообразны в любви."
 };
 
 window.I18N_PATRONES = [

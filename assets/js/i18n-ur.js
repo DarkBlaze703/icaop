@@ -907,7 +907,16 @@ window.I18N_DIC = {
   "Selecciona una campaña para ver el detalle.": "تفصیل دیکھنے کے لیے ایک مہم منتخب کریں۔",
   "Navidad 2026": "کرسمس 2026",
   "Regreso a clases 2027": "اسکول واپسی 2027",
-  "Selecciona un anuncio para ver el detalle.": "تفصیل دیکھنے کے لیے ایک اعلان منتخب کریں۔"
+  "Selecciona un anuncio para ver el detalle.": "تفصیل دیکھنے کے لیے ایک اعلان منتخب کریں۔",
+  "Logo de la ONG PRODEINJUTE": "این جی او PRODEINJUTE کا لوگو",
+  "Logo del Colegio Académico Niño de Jesús": "کولیخیو اکادیمیکو نینیو دے خیسوس کا لوگو",
+  "Colegio Académico Niño de Jesús": "کولیخیو اکادیمیکو نینیو دے خیسوس",
+  "Educación inicial, primaria y secundaria, además de academia preuniversitaria.": "ابتدائی، پرائمری اور ثانوی تعلیم کے ساتھ یونیورسٹی کی تیاری کی اکیڈمی۔",
+  "Logo de ICAOP TV Perú": "ICAOP TV Perú کا لوگو",
+  "Canal digital de la Iglesia: «La Voz Católica Ortodoxa, para saber y sentir la Verdad».": "کلیسیا کا ڈیجیٹل چینل: «کیتھولک آرتھوڈوکس آواز، سچائی کو جاننے اور محسوس کرنے کے لیے»۔",
+  "Escudo de la Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "مغربی رسم کی آرتھوڈوکس جورسڈکشنز کی عالمی رفاقت کا نشان",
+  "Comunión Mundial de Jurisdicciones de Rito Ortodoxo Occidental": "مغربی رسم کی آرتھوڈوکس جورسڈکشنز کی عالمی رفاقت",
+  "«Unum in fide, plures in caritate»: uno en la fe, diversos en la caridad.": "«Unum in fide, plures in caritate»: ایمان میں ایک، محبت میں متنوع۔"
 };
 
 window.I18N_PATRONES = [
