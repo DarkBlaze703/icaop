@@ -920,10 +920,14 @@ window.I18N_DIC = {
   "Logo del Colegio Episcopal Peruano Latinoamericano": "Λογότυπο του Περουβιανού Λατινοαμερικανικού Επισκοπικού Κολλεγίου",
   "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Έμβλημα του Προγράμματος Καθολικής Ορθόδοξης Εκπαίδευσης (PECO)",
   "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú": "Ενοριακό Σχολείο-Οικοτροφείο Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
-  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Σχέδιο ολοκληρωμένης κατασκευής του Ενοριακού Σχολείου-Οικοτροφείου Su Santidad Juan Pablo II, σε πλατφόρμα πλαγιάς με τοίχους αντιστήριξης. Περιλαμβάνει μονάδες αιθουσών διδασκαλίας, διοικητική μονάδα, παρεκκλήσι, χώρους υγιεινής, πλήρεις ηλεκτρικές και υδραυλικές εγκαταστάσεις, καθώς και σύστημα ηλιακής ενέργειας συνδεδεμένο στο δίκτυο για την ηλεκτροδότηση του συγκροτήματος."
+  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Σχέδιο ολοκληρωμένης κατασκευής του Ενοριακού Σχολείου-Οικοτροφείου Su Santidad Juan Pablo II, σε πλατφόρμα πλαγιάς με τοίχους αντιστήριξης. Περιλαμβάνει μονάδες αιθουσών διδασκαλίας, διοικητική μονάδα, παρεκκλήσι, χώρους υγιεινής, πλήρεις ηλεκτρικές και υδραυλικές εγκαταστάσεις, καθώς και σύστημα ηλιακής ενέργειας συνδεδεμένο στο δίκτυο για την ηλεκτροδότηση του συγκροτήματος.",
+  "Fotos reales de la visita al terreno": "Πραγματικές φωτογραφίες από την επίσκεψη στο οικόπεδο",
+  "Diseño referencial": "Ενδεικτικός σχεδιασμός",
+  "Foto real · visita al terreno": "Πραγματική φωτογραφία · επίσκεψη στο οικόπεδο"
 };
 
 window.I18N_PATRONES = [
+  [/^Foto real (\d+) de la visita al terreno$/, "Πραγματική φωτογραφία $1 από την επίσκεψη στο οικόπεδο"],
   [/^Ver foto (\d+) de (\d+)$/, "Φωτογραφία $1 από $2"],
   [/^Foto (\d+)$/, "Φωτογραφία $1"],
   [/^Atiende a ([\d,.]+) personas$/, "Εξυπηρετεί $1 άτομα"],

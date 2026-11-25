@@ -91,6 +91,48 @@ function abrirModalProyecto(index) {
     miniaturas.innerHTML = "";
   }
 
+  // Fotos reales (visita al terreno): miniaturas aparte que se ven en la galería principal
+  let contReales = overlay.querySelector("[data-proyecto-reales]");
+  if (!contReales) {
+    contReales = document.createElement("div");
+    contReales.className = "proyecto-reales";
+    contReales.setAttribute("data-proyecto-reales", "");
+    miniaturas.after(contReales);
+  }
+  const etiquetaGaleria = (texto) => {
+    let chip = galeria.querySelector(".galeria-etiqueta");
+    if (!texto) { if (chip) chip.remove(); return; }
+    if (!chip) { chip = document.createElement("span"); chip.className = "galeria-etiqueta"; galeria.appendChild(chip); }
+    chip.textContent = texto;
+  };
+  if (p.fotosReales && p.fotosReales.num > 0) {
+    const fr = p.fotosReales;
+    let html = `<h3><i class="fa-solid fa-camera" aria-hidden="true"></i> ${escapeHtml(fr.titulo)}</h3><div class="miniaturas miniaturas-reales">`;
+    for (let i = 1; i <= fr.num; i++) {
+      const num = String(i).padStart(2, "0");
+      html += `<button data-img="${fr.carpeta}${num}.jpg"><img src="${fr.carpeta}${num}.jpg" alt="Foto real ${i} de la visita al terreno" loading="lazy"></button>`;
+    }
+    contReales.innerHTML = html + "</div>";
+    contReales.hidden = false;
+    etiquetaGaleria("Diseño referencial");
+    const todos = () => overlay.querySelectorAll("[data-proyecto-miniaturas] button, .miniaturas-reales button");
+    todos().forEach(btn => {
+      btn.addEventListener("click", () => {
+        const img = galeria.querySelector("img");
+        if (img) img.src = btn.getAttribute("data-img");
+        todos().forEach(b => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        const real = btn.closest(".miniaturas-reales");
+        etiquetaGaleria(real ? "Foto real · visita al terreno" : "Diseño referencial");
+        if (real) galeria.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  } else {
+    contReales.innerHTML = "";
+    contReales.hidden = true;
+    etiquetaGaleria("");
+  }
+
   // Servicios u otras listas del proyecto
   const contSecciones = overlay.querySelector("[data-proyecto-secciones]");
   if (contSecciones) {

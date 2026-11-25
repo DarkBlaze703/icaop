@@ -49,6 +49,12 @@ const PROYECTOS_ICAOP = [
     ],
     carpetaImagenes: "assets/img/proyectos/centro-salud-sojo/",
     numImagenes: 12,
+    // Fotos reales (no diseños): visita al terreno donde se construirá el centro de salud
+    fotosReales: {
+      titulo: "Fotos reales de la visita al terreno",
+      carpeta: "assets/img/proyectos/centro-salud-sojo/visita/",
+      num: 19
+    },
     video: "assets/media/proyecto-centro-salud-sojo.mp4",
     videoPortada: "assets/media/proyecto-centro-salud-sojo.jpg",
     presupuesto: {

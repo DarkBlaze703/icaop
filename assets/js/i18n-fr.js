@@ -920,10 +920,14 @@ window.I18N_DIC = {
   "Logo del Colegio Episcopal Peruano Latinoamericano": "Logo du Collège épiscopal péruvien latino-américain",
   "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "Blason du Programme d'éducation catholique orthodoxe (PECO)",
   "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú": "Collège-foyer paroissial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
-  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Projet de construction intégrale du Collège-foyer paroissial Su Santidad Juan Pablo II, sur une plateforme à flanc de colline avec murs de soutènement. Il comprend des modules de salles de classe, un module administratif, une chapelle, des sanitaires, des installations électriques et sanitaires complètes, ainsi qu'un système d'énergie solaire raccordé au réseau pour alimenter le complexe en électricité."
+  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "Projet de construction intégrale du Collège-foyer paroissial Su Santidad Juan Pablo II, sur une plateforme à flanc de colline avec murs de soutènement. Il comprend des modules de salles de classe, un module administratif, une chapelle, des sanitaires, des installations électriques et sanitaires complètes, ainsi qu'un système d'énergie solaire raccordé au réseau pour alimenter le complexe en électricité.",
+  "Fotos reales de la visita al terreno": "Photos réelles de la visite du terrain",
+  "Diseño referencial": "Conception de référence",
+  "Foto real · visita al terreno": "Photo réelle · visite du terrain"
 };
 
 window.I18N_PATRONES = [
+  [/^Foto real (\d+) de la visita al terreno$/, "Photo réelle $1 de la visite du terrain"],
   [/^Ver foto (\d+) de (\d+)$/, "Voir la photo $1 sur $2"],
   [/^Foto (\d+)$/, "Photo $1"],
   [/^Atiende a ([\d,.]+) personas$/, "Accueille $1 personnes"],

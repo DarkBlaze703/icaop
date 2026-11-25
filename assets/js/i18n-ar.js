@@ -920,10 +920,14 @@ window.I18N_DIC = {
   "Logo del Colegio Episcopal Peruano Latinoamericano": "شعار الكلية الأسقفية البيروفية الأمريكية اللاتينية",
   "Escudo del Programa de Educación Católica Ortodoxa (PECO)": "شعار برنامج التعليم الكاثوليكي الأرثوذكسي (PECO)",
   "Colegio Hogar Parroquial Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú": "المدرسة الرعوية الداخلية Su Santidad Juan Pablo II – Complejo Parroquial Casa de Paz Perú",
-  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "مشروع بناء متكامل للمدرسة الرعوية الداخلية Su Santidad Juan Pablo II، على منصة منحدر مع جدران استنادية. يشمل وحدات فصول دراسية، ووحدة إدارية، وكنيسة صغيرة، ومرافق صحية، وتمديدات كهربائية وصحية كاملة، إضافةً إلى نظام طاقة شمسية متصل بالشبكة لتزويد المجمّع بالكهرباء."
+  "Proyecto de construcción integral del Colegio Hogar Parroquial Su Santidad Juan Pablo II, sobre una plataforma en ladera con muros de contención. Contempla módulos de aulas, un módulo administrativo, capilla, baños, instalaciones eléctricas y sanitarias completas, y un sistema de energía solar conectado a la red para el abastecimiento eléctrico del complejo.": "مشروع بناء متكامل للمدرسة الرعوية الداخلية Su Santidad Juan Pablo II، على منصة منحدر مع جدران استنادية. يشمل وحدات فصول دراسية، ووحدة إدارية، وكنيسة صغيرة، ومرافق صحية، وتمديدات كهربائية وصحية كاملة، إضافةً إلى نظام طاقة شمسية متصل بالشبكة لتزويد المجمّع بالكهرباء.",
+  "Fotos reales de la visita al terreno": "صور حقيقية من زيارة الموقع",
+  "Diseño referencial": "تصميم مرجعي",
+  "Foto real · visita al terreno": "صورة حقيقية · زيارة الموقع"
 };
 
 window.I18N_PATRONES = [
+  [/^Foto real (\d+) de la visita al terreno$/, "صورة حقيقية $1 من زيارة الموقع"],
   [/^Ver foto (\d+) de (\d+)$/, "الصورة $1 من $2"],
   [/^Foto (\d+)$/, "الصورة $1"],
   [/^Atiende a ([\d,.]+) personas$/, "يخدم $1 شخص"],

@@ -1369,3 +1369,13 @@ body.tema-heraldos {
   .selector-opcion { flex: 0 0 80%; scroll-snap-align: start; }
 }
 .selector-lista { scroll-margin-top: 90px; }
+
+/* Proyectos: fotos reales (visita al terreno) */
+.detalle-proyecto-galeria { position: relative; }
+.galeria-etiqueta {
+  position: absolute; left: 12px; bottom: 12px; z-index: 2;
+  background: rgba(0,0,0,.65); color: #fff; font-size: 13px; font-weight: 600;
+  padding: 4px 10px; border-radius: 999px; pointer-events: none;
+}
+.proyecto-reales h3 { display: flex; align-items: center; gap: 8px; }
+.proyecto-reales h3 i { color: var(--color-dorado); }
