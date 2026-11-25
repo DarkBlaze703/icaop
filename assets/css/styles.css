@@ -1175,3 +1175,81 @@ html[lang="ur"] body { line-height: 1.9; }
 .fb-embed--respaldo i { font-size: 44px; color: #1877F2; }
 .fb-embed--respaldo strong { color: var(--color-vino-oscuro); font-size: 18px; }
 .fb-embed--respaldo p { margin: 0; color: var(--color-gris); max-width: 320px; }
+
+/* =========================================================
+   Heraldos del Amor por la Paz — identidad propia
+   Misma estructura que la ICAOP; solo cambia la paleta
+   (azul marino y dorado, tomados de su medalla).
+   ========================================================= */
+body.tema-heraldos {
+  --color-vino:        #1D3A6B;
+  --color-vino-claro:  #2C5290;
+  --color-vino-oscuro: #12264A;
+  --color-terracota:   #6E8DBF;
+  --color-crema:       #D3DDEC;
+  --color-crema-suave: #EEF2F8;
+  --color-borde:       #DCE2EC;
+  --color-borde-fuerte:#C3CEDF;
+}
+.heraldos-eyebrow {
+  display: inline-block; margin: 6px 0 4px;
+  font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-dorado);
+}
+.heraldos-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 170px; gap: var(--space-5); align-items: center; }
+.heraldos-hero-logo { width: 170px; height: auto; filter: drop-shadow(0 6px 16px rgba(0, 0, 0, .3)); }
+@media (max-width: 700px) {
+  .heraldos-hero-grid { grid-template-columns: 1fr; }
+  .heraldos-hero-logo { width: 110px; order: -1; }
+}
+.heraldos-intro { color: var(--color-gris); max-width: 760px; margin-bottom: var(--space-4); }
+.heraldos-lineas .card h3 { margin: 12px 0 6px; }
+.heraldos-lineas .card p { margin: 0; color: var(--color-gris); }
+.heraldos-icono {
+  width: 52px; height: 52px; border-radius: 12px; display: grid; place-items: center;
+  background: var(--color-crema-suave); color: var(--color-vino); font-size: 24px;
+}
+.heraldos-subtitulo { margin: var(--space-6) 0 var(--space-3); }
+.heraldos-dato {
+  padding: 18px 16px; text-align: center; background: var(--color-crema-suave);
+  border: 1px solid var(--color-borde); border-radius: var(--radius);
+}
+.heraldos-dato strong { display: block; font-family: var(--font-titulos); font-size: 32px; color: var(--color-vino); line-height: 1.1; }
+.heraldos-dato span { display: block; margin-top: 6px; font-size: var(--texto-sm); color: var(--color-gris); }
+.heraldos-campana {
+  display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: var(--space-4); align-items: center;
+  margin-top: var(--space-5); padding: var(--space-4);
+  background: var(--color-blanco); border: 1px solid var(--color-borde); border-inline-start: 4px solid var(--color-dorado);
+  border-radius: var(--radius-lg);
+}
+.heraldos-campana img { width: 120px; height: auto; }
+.heraldos-campana h3 { margin: 8px 0 4px; }
+.heraldos-campana p { margin: 0 0 12px; color: var(--color-gris); }
+@media (max-width: 560px) { .heraldos-campana { grid-template-columns: 1fr; } .heraldos-campana img { width: 90px; } }
+.heraldos-galeria-vacia {
+  display: flex; flex-direction: column; align-items: center; gap: 8px; padding: var(--space-6) var(--space-4);
+  border: 2px dashed var(--color-borde-fuerte); border-radius: var(--radius-lg); color: var(--color-gris); text-align: center;
+}
+.heraldos-galeria-vacia i { font-size: 34px; color: var(--color-terracota); }
+.heraldos-galeria-vacia p { margin: 0; }
+.heraldos-nota { margin-top: var(--space-4); color: var(--color-gris); font-size: var(--texto-sm); }
+.heraldos-nota i { color: #25D366; }
+.heraldos-nota a { color: var(--color-vino); font-weight: 600; }
+.qr-etiqueta .num { font-weight: 700; }
+
+/* Enlace a Heraldos en Inicio (usa la paleta de Heraldos) */
+.banner-heraldos {
+  display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: var(--space-4); align-items: center;
+  padding: var(--space-4) var(--space-5); border-radius: var(--radius-lg);
+  background: linear-gradient(120deg, #12264A 0%, #1D3A6B 100%); color: #EEF2F8; text-decoration: none;
+  box-shadow: 0 10px 28px rgba(18, 38, 74, .25); transition: transform .2s, box-shadow .2s;
+}
+.banner-heraldos:hover, .banner-heraldos:focus-visible { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(18, 38, 74, .32); }
+.banner-heraldos img { width: 96px; height: auto; }
+.banner-heraldos h3 { color: #FFFFFF; margin: 0 0 4px; }
+.banner-heraldos p { margin: 0; color: #D3DDEC; }
+.banner-heraldos .btn { white-space: nowrap; }
+@media (max-width: 760px) {
+  .banner-heraldos { grid-template-columns: 72px minmax(0, 1fr); padding: var(--space-4); }
+  .banner-heraldos img { width: 72px; }
+  .banner-heraldos .btn { grid-column: 1 / -1; justify-self: start; }
+}
