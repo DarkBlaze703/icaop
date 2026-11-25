@@ -1323,3 +1323,5 @@ body.tema-heraldos {
   content: "\f00c"; font-family: "Font Awesome 6 Free"; font-weight: 900;
   position: absolute; inset-inline-start: 0; top: 1px; color: var(--color-dorado-oscuro); font-size: 13px;
 }
+.navidad-campana .cita { margin-top: var(--space-3); font-size: 16px; }
+.navidad-convocan-linea { color: var(--color-gris); font-size: var(--texto-sm); }
